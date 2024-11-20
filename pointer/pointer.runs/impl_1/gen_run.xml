@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1732073861">
+  <File Type="BITSTR-BMM" Name="pointer_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="pointer_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="pointer_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="pointer_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="pointer.tcl"/>
+  <File Type="OPT-TIMING" Name="pointer_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="pointer_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="pointer_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="pointer_reports.tcl"/>
+  <File Type="OPT-DRC" Name="pointer_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="pointer.hwdef"/>
+  <File Type="PWROPT-DCP" Name="pointer_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="pointer_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="pointer_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="pointer_placed.dcp"/>
+  <File Type="PLACE-IO" Name="pointer_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="pointer_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="pointer_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="pointer_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="pointer_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="pointer_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pointer_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="pointer_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pointer_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="pointer.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="pointer_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="pointer_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="pointer_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="pointer.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="pointer_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="pointer_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="pointer_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="pointer_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="pointer_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="pointer_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="pointer_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="pointer.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="pointer_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="pointer_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="pointer_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="pointer_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="pointer_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="pointer_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="pointer_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="pointer_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="pointer_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="pointer_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="pointer_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="pointer_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="pointer_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="pointer_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pointer_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pointer_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="pointer_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="pointer_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="pointer_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="pointer_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="pointer_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="pointer.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="pointer_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="pointer.rbt"/>
+  <File Type="BITSTR-NKY" Name="pointer.nky"/>
+  <File Type="PDI-FILE" Name="pointer.pdi"/>
+  <File Type="RCFI_FILE" Name="pointer.rcfi"/>
+  <File Type="CFI_FILE" Name="pointer.cfi"/>
+  <File Type="RNPI_FILE" Name="pointer.rnpi"/>
+  <File Type="NPI_FILE" Name="pointer.npi"/>
+  <File Type="RBD_FILE" Name="pointer.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="pointer.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="pointer.sysdef"/>
+  <File Type="BG-BGN" Name="pointer.bgn"/>
+  <File Type="BG-DRC" Name="pointer.drc"/>
+  <File Type="RDI-RDI" Name="pointer.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/BCD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pointer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pointer"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pointer.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
