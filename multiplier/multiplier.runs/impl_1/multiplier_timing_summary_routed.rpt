@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Wed Nov 20 23:32:51 2024
+| Date         : Thu Nov 21 09:58:39 2024
 | Host         : ozy running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file multiplier_timing_summary_routed.rpt -pb multiplier_timing_summary_routed.pb -rpx multiplier_timing_summary_routed.rpx -warn_on_violation
 | Design       : multiplier
@@ -54,39 +54,39 @@ Table of Contents
 
 1. checking no_clock
 --------------------
- There are 51 register/latch pins with no clock driven by root clock pin: button_clk (HIGH)
+ There are 47 register/latch pins with no clock driven by root clock pin: button_clk (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op1[0] (HIGH)
+ There are 8 register/latch pins with no clock driven by root clock pin: mult_op1[0] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op1[1] (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: mult_op1[1] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op1[2] (HIGH)
+ There are 6 register/latch pins with no clock driven by root clock pin: mult_op1[2] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op1[3] (HIGH)
+ There are 5 register/latch pins with no clock driven by root clock pin: mult_op1[3] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op1[4] (HIGH)
+ There are 4 register/latch pins with no clock driven by root clock pin: mult_op1[4] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op1[5] (HIGH)
+ There are 3 register/latch pins with no clock driven by root clock pin: mult_op1[5] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op1[6] (HIGH)
+ There are 2 register/latch pins with no clock driven by root clock pin: mult_op1[6] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op1[7] (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: mult_op1[7] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op2[0] (HIGH)
+ There are 8 register/latch pins with no clock driven by root clock pin: mult_op2[0] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op2[1] (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: mult_op2[1] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op2[2] (HIGH)
+ There are 6 register/latch pins with no clock driven by root clock pin: mult_op2[2] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op2[3] (HIGH)
+ There are 5 register/latch pins with no clock driven by root clock pin: mult_op2[3] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op2[4] (HIGH)
+ There are 4 register/latch pins with no clock driven by root clock pin: mult_op2[4] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op2[5] (HIGH)
+ There are 3 register/latch pins with no clock driven by root clock pin: mult_op2[5] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op2[6] (HIGH)
+ There are 2 register/latch pins with no clock driven by root clock pin: mult_op2[6] (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: mult_op2[7] (HIGH)
+ There are 7 register/latch pins with no clock driven by root clock pin: mult_op2[7] (HIGH)
 
  There are 16 register/latch pins with no clock driven by root clock pin: reset (HIGH)
 
@@ -103,7 +103,7 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 116 pins that are not constrained for maximum delay. (HIGH)
+ There are 109 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 

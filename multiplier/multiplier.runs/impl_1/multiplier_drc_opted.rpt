@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Wed Nov 20 23:31:41 2024
+| Date         : Thu Nov 21 09:57:45 2024
 | Host         : ozy running 64-bit major release  (build 9200)
 | Command      : report_drc -file multiplier_drc_opted.rpt -pb multiplier_drc_opted.pb -rpx multiplier_drc_opted.rpx
 | Design       : multiplier

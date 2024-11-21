@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Nov 21 09:29:06 2024
+# Process ID: 11984
+# Current directory: D:/Vivado/repos/multiplier
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15436 D:\Vivado\repos\multiplier\multiplier.xpr
+# Log file: D:/Vivado/repos/multiplier/vivado.log
+# Journal file: D:/Vivado/repos/multiplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vivado/repos/multiplier/multiplier.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

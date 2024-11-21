@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Wed Nov 20 23:31:45 2024
+| Date         : Thu Nov 21 09:57:46 2024
 | Host         : ozy running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file multiplier_control_sets_placed.rpt
 | Design       : multiplier
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    48 |
-|    Minimum number of control sets                        |    48 |
+| Total control sets                                       |    49 |
+|    Minimum number of control sets                        |    49 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |   333 |
+| Unused register locations in slices containing registers |   337 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,15 +39,15 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    48 |
-| >= 0 to < 4        |    47 |
+| Total control sets |    49 |
+| >= 0 to < 4        |    48 |
 | >= 4 to < 6        |     0 |
 | >= 6 to < 8        |     0 |
 | >= 8 to < 10       |     0 |
 | >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     0 |
-| >= 14 to < 16      |     0 |
-| >= 16              |     1 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     0 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -59,7 +59,7 @@ Table of Contents
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |               0 |            0 |
-| No           | No                    | Yes                    |              51 |           39 |
+| No           | No                    | Yes                    |              47 |           36 |
 | No           | Yes                   | No                     |              16 |           16 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
@@ -73,54 +73,55 @@ Table of Contents
 +------------------------------+---------------+-----------------------------+------------------+----------------+
 |         Clock Signal         | Enable Signal |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
 +------------------------------+---------------+-----------------------------+------------------+----------------+
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[0]_LDC_i_1_n_0 |                1 |              1 |
+|  op1_comp_reg[1]_LDC_i_1_n_0 |               | op1_comp_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  op1_comp_reg[2]_LDC_i_1_n_0 |               | op1_comp_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  op1_comp_reg[3]_LDC_i_1_n_0 |               | op1_comp_reg[3]_LDC_i_2_n_0 |                1 |              1 |
 |  button_clk_IBUF_BUFG        |               | op1_comp_reg[0]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[2]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[0]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[3]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[1]_LDC_i_1_n_0 |                1 |              1 |
 |  button_clk_IBUF_BUFG        |               | op1_comp_reg[1]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[6]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[7]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[2]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[3]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[2]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[7]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[1]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[5]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[6]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[3]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[3]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[4]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[4]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[2]_LDC_i_1_n_0 |                1 |              1 |
 |  button_clk_IBUF_BUFG        |               | op1_comp_reg[1]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[0]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op1_comp_reg[5]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[7]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[3]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[0]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[6]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[4]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[3]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[6]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[7]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[4]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[4]_LDC_i_2_n_0 |                1 |              1 |
 |  button_clk_IBUF_BUFG        |               | op2_comp_reg[6]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[7]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[6]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[7]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[5]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[1]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[0]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[5]_LDC_i_1_n_0 |                1 |              1 |
 |  button_clk_IBUF_BUFG        |               | op2_comp_reg[5]_LDC_i_2_n_0 |                1 |              1 |
 |  button_clk_IBUF_BUFG        |               | op2_comp_reg[5]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[6]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[4]_LDC_i_1_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | op2_comp_reg[4]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[7]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op1_comp_reg[4]_LDC_i_1_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | op2_comp_reg[1]_LDC_i_2_n_0 |                1 |              1 |
 |  op1_comp_reg[0]_LDC_i_1_n_0 |               | op1_comp_reg[0]_LDC_i_2_n_0 |                1 |              1 |
-|  op2_comp_reg[0]_LDC_i_1_n_0 |               | op2_comp_reg[0]_LDC_i_2_n_0 |                1 |              1 |
-|  op2_comp_reg[1]_LDC_i_1_n_0 |               | op2_comp_reg[1]_LDC_i_2_n_0 |                1 |              1 |
-|  op1_comp_reg[1]_LDC_i_1_n_0 |               | op1_comp_reg[1]_LDC_i_2_n_0 |                1 |              1 |
-|  op1_comp_reg[7]_LDC_i_1_n_0 |               | op1_comp_reg[7]_LDC_i_2_n_0 |                1 |              1 |
-|  op2_comp_reg[2]_LDC_i_1_n_0 |               | op2_comp_reg[2]_LDC_i_2_n_0 |                1 |              1 |
-|  op1_comp_reg[3]_LDC_i_1_n_0 |               | op1_comp_reg[3]_LDC_i_2_n_0 |                1 |              1 |
-|  op1_comp_reg[5]_LDC_i_1_n_0 |               | op1_comp_reg[5]_LDC_i_2_n_0 |                1 |              1 |
-|  op1_comp_reg[6]_LDC_i_1_n_0 |               | op1_comp_reg[6]_LDC_i_2_n_0 |                1 |              1 |
 |  op2_comp_reg[3]_LDC_i_1_n_0 |               | op2_comp_reg[3]_LDC_i_2_n_0 |                1 |              1 |
-|  op1_comp_reg[4]_LDC_i_1_n_0 |               | op1_comp_reg[4]_LDC_i_2_n_0 |                1 |              1 |
-|  op1_comp_reg[2]_LDC_i_1_n_0 |               | op1_comp_reg[2]_LDC_i_2_n_0 |                1 |              1 |
-|  op2_comp_reg[7]_LDC_i_1_n_0 |               | op2_comp_reg[7]_LDC_i_2_n_0 |                1 |              1 |
-|  op2_comp_reg[6]_LDC_i_1_n_0 |               | op2_comp_reg[6]_LDC_i_2_n_0 |                1 |              1 |
-|  op2_comp_reg[5]_LDC_i_1_n_0 |               | op2_comp_reg[5]_LDC_i_2_n_0 |                1 |              1 |
 |  op2_comp_reg[4]_LDC_i_1_n_0 |               | op2_comp_reg[4]_LDC_i_2_n_0 |                1 |              1 |
-|  button_clk_IBUF_BUFG        |               | reset_IBUF                  |                8 |             20 |
+|  op2_comp_reg[6]_LDC_i_1_n_0 |               | op2_comp_reg[6]_LDC_i_2_n_0 |                1 |              1 |
+|  op2_comp_reg[7]_LDC_i_1_n_0 |               | op2_comp_reg[7]_LDC_i_2_n_0 |                1 |              1 |
+|  op1_comp_reg[6]_LDC_i_1_n_0 |               | op1_comp_reg[6]_LDC_i_2_n_0 |                1 |              1 |
+|  op2_comp_reg[1]_LDC_i_1_n_0 |               | op2_comp_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  op2_comp_reg[0]_LDC_i_1_n_0 |               | op2_comp_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  op2_comp_reg[2]_LDC_i_1_n_0 |               | op2_comp_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  op1_comp_reg[5]_LDC_i_1_n_0 |               | op1_comp_reg[5]_LDC_i_2_n_0 |                1 |              1 |
+|  op2_comp_reg[5]_LDC_i_1_n_0 |               | op2_comp_reg[5]_LDC_i_2_n_0 |                1 |              1 |
+|  op1_comp_reg[7]_LDC_i_1_n_0 |               | op1_comp_reg[7]_LDC_i_2_n_0 |                1 |              1 |
+|  op1_comp_reg[4]_LDC_i_1_n_0 |               | op1_comp_reg[4]_LDC_i_2_n_0 |                1 |              1 |
+|  button_clk_IBUF_BUFG        |               | reset_IBUF                  |                4 |             15 |
 +------------------------------+---------------+-----------------------------+------------------+----------------+
 
 
