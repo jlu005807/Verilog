@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Thu Nov 21 15:30:10 2024
+| Date         : Thu Nov 21 18:55:46 2024
 | Host         : ozy running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file RAM_control_sets_placed.rpt
 | Design       : RAM
@@ -74,11 +74,11 @@ Table of Contents
 |     Clock Signal    |   Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +---------------------+-------------------+------------------+------------------+----------------+
 |  rowl_clk_IBUF_BUFG | temp_leds         |                  |                1 |              2 |
+|  rowl_clk_IBUF_BUFG | ram_en_IBUF       | reset_IBUF       |                1 |              4 |
 |  rowl_clk_IBUF_BUFG | ram               | reset_IBUF       |                1 |              4 |
+|  rowl_clk_IBUF_BUFG | ram[2][3]_i_1_n_0 | reset_IBUF       |                1 |              4 |
 |  rowl_clk_IBUF_BUFG | ram[1][3]_i_1_n_0 | reset_IBUF       |                1 |              4 |
 |  rowl_clk_IBUF_BUFG | ram[0][3]_i_1_n_0 | reset_IBUF       |                1 |              4 |
-|  rowl_clk_IBUF_BUFG | ram[2][3]_i_1_n_0 | reset_IBUF       |                1 |              4 |
-|  rowl_clk_IBUF_BUFG | ram_en_IBUF       | reset_IBUF       |                1 |              4 |
 +---------------------+-------------------+------------------+------------------+----------------+
 
 

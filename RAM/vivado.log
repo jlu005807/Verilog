@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Nov 21 18:42:30 2024
+# Process ID: 31624
+# Current directory: D:/Vivado/repos/RAM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13816 D:\Vivado\repos\RAM\RAM.xpr
+# Log file: D:/Vivado/repos/RAM/vivado.log
+# Journal file: D:/Vivado/repos/RAM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vivado/repos/RAM/RAM.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 905.445 ; gain = 202.312
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Nov 21 18:50:50 2024] Launched synth_1...
+Run output will be captured here: D:/Vivado/repos/RAM/RAM.runs/synth_1/runme.log
+[Thu Nov 21 18:50:51 2024] Launched impl_1...
+Run output will be captured here: D:/Vivado/repos/RAM/RAM.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Nov 21 18:54:10 2024] Launched synth_1...
+Run output will be captured here: D:/Vivado/repos/RAM/RAM.runs/synth_1/runme.log
+[Thu Nov 21 18:54:10 2024] Launched impl_1...
+Run output will be captured here: D:/Vivado/repos/RAM/RAM.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 21 18:59:18 2024...

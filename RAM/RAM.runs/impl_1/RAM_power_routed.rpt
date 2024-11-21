@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Thu Nov 21 15:30:45 2024
+| Date             : Thu Nov 21 18:56:44 2024
 | Host             : ozy running 64-bit major release  (build 9200)
 | Command          : report_power -file RAM_power_routed.rpt -pb RAM_power_summary_routed.pb -rpx RAM_power_routed.rpx
 | Design           : RAM
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 12.893       |
+| Total On-Chip Power (W)  | 12.986       |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 12.694       |
-| Device Static (W)        | 0.199        |
+| Dynamic (W)              | 12.786       |
+| Device Static (W)        | 0.200        |
 | Effective TJA (C/W)      | 1.9          |
-| Max Ambient (C)          | 60.9         |
-| Junction Temperature (C) | 49.1         |
+| Max Ambient (C)          | 60.7         |
+| Junction Temperature (C) | 49.3         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,15 +52,15 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.080 |       46 |       --- |             --- |
-|   LUT as Logic |     0.071 |       16 |    133800 |            0.01 |
+| Slice Logic    |     0.078 |       44 |       --- |             --- |
+|   LUT as Logic |     0.069 |       15 |    133800 |            0.01 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Register     |     0.003 |       22 |    267600 |           <0.01 |
 |   Others       |     0.000 |        1 |       --- |             --- |
-| Signals        |     0.371 |       49 |       --- |             --- |
-| I/O            |    12.242 |       20 |       400 |            5.00 |
-| Static Power   |     0.199 |          |           |                 |
-| Total          |    12.893 |          |           |                 |
+| Signals        |     0.375 |       49 |       --- |             --- |
+| I/O            |    12.333 |       20 |       400 |            5.00 |
+| Static Power   |     0.200 |          |           |                 |
+| Total          |    12.986 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,9 +70,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.562 |       0.483 |      0.079 |
-| Vccaux    |       1.800 |     0.484 |       0.447 |      0.036 |
-| Vcco33    |       3.300 |     3.461 |       3.456 |      0.005 |
+| Vccint    |       1.000 |     0.565 |       0.485 |      0.080 |
+| Vccaux    |       1.800 |     0.487 |       0.451 |      0.037 |
+| Vcco33    |       3.300 |     3.486 |       3.481 |      0.005 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -137,8 +137,8 @@ Table of Contents
 +-------+-----------+
 | Name  | Power (W) |
 +-------+-----------+
-| RAM   |    12.693 |
-|   bcd |     0.106 |
+| RAM   |    12.786 |
+|   bcd |     0.104 |
 +-------+-----------+
 
 

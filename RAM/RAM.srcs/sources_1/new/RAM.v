@@ -42,15 +42,14 @@ always @(posedge rowl_clk or posedge reset) begin
         num <= 4'b0000;
     join
     else if(ram_en) begin
-        if(r_en) begin
+        if(!r_en) begin
             num <= ram[addr];
-            temp_leds <= addr;
         end
         else begin
             ram[addr] <= data_in;
             num <= data_in;
-            temp_leds <= 2'b00;
         end
+        temp_leds <= addr;
     end
 end
 
