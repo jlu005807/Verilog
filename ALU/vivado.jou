@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Nov 30 13:10:27 2024
+# Process ID: 72940
+# Current directory: D:/Vivado/repos/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent75008 D:\Vivado\repos\ALU\ALU.xpr
+# Log file: D:/Vivado/repos/ALU/vivado.log
+# Journal file: D:/Vivado/repos/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vivado/repos/ALU/ALU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ALU_tb.tcl
+close_sim
+launch_simulation
+source ALU_tb.tcl
+close_sim

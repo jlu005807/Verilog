@@ -46,8 +46,8 @@ module ALU_tb;
         B=0;
         ALU_OP=0;
         for(i=0;i<32;i=i+1) begin
-           A=$urandom%100;
            B=$urandom%100;
+           A=B+$urandom%100;
            ALU_OP=$urandom%4;
            #10;
            $display("A=%d, B=%d, ALU_OP=%d, ALU_OUT=%d, zero=%d", A, B, ALU_OP, ALU_OUT, zero);

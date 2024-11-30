@@ -1,0 +1,9 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+op_code = 000000, func = 100001
+op_code = 000000, func = 100010
+op_code = 001101, func = 100011
+op_code = 001111, func = 100100
+op_code = 000101, func = 100101
+op_code = 100011, func = 100110
+op_code = 101011, func = 100111
