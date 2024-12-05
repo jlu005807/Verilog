@@ -1,5 +1,37 @@
 Vivado Simulator 2019.2
 Time resolution is 1 ps
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
+Read data1:          0, Read data2:          0
 Read data1:          0, Read data2:          1
 Read data1:          1, Read data2:          2
 Read data1:          2, Read data2:          3
@@ -31,3 +63,4 @@ Read data1:         27, Read data2:         28
 Read data1:         28, Read data2:         29
 Read data1:         29, Read data2:         30
 Read data1:         30, Read data2:         31
+$finish called at time : 650 ns : File "D:/Vivado/repos/regfile/regfile.srcs/sim_1/new/regfile_tb.v" Line 85

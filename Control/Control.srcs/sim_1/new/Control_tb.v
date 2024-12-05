@@ -34,14 +34,14 @@ wire MemRead;
 wire MemWrite;
 wire MemtoReg;
 
-wire[5:0] ALU_op;
+wire[2:0] ALU_op;
 
 integer i;
 always #5 clk=~clk; // clock generator
 reg [5:0] codes[6:0];
 reg[5:0] funcs[6:0];
 Control DUT(op_code,RegDst,RegWrite,ALUSrc,PCsrc,MemRead,MemWrite,MemtoReg,ALU_op);
-ALU_Control ALU_DUT(op_code,func,ALU_ctrl);
+ALU_Control ALU_DUT(ALU_op,func,ALU_ctrl);
 initial begin
    clk=0;
    op_code = 6'b000000;
@@ -66,7 +66,8 @@ initial begin
         func = funcs[i];
         $display("op_code = %b, func = %b",op_code,func);
         #10;
-   end    
+   end
+   $finish;    
 end
 
 endmodule

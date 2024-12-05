@@ -62,12 +62,14 @@ initial begin
     data_in = 0;
 
 
-    #10;
+    
     // Write data to the registers
     write_enable=1;
+    #10;
     for (i = 0 ;i<32 ;i=i+1 ) begin
         rd=rd+1;
         data_in=rd;
+        $display("Read data1: %d, Read data2: %d", read_data1, read_data2);
         #10;
     end
     write_enable=0;
@@ -80,7 +82,7 @@ initial begin
         #10;
         $display("Read data1: %d, Read data2: %d", read_data1, read_data2);
     end
-
+    $finish;
 end
 
 endmodule

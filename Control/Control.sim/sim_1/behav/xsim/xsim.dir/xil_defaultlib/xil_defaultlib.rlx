@@ -4,5 +4,5 @@ Nov  6 2019
 21:57:16
 D:/Vivado/repos/Control/Control.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
 D:/Vivado/repos/Control/Control.srcs/sim_1/new/Control_tb.v,1732976044,verilog,,,,Control_tb,,,,,,,,
-D:/Vivado/repos/Control/Control.srcs/sources_1/new/ALU_Control.v,1732948900,verilog,,D:/Vivado/repos/Control/Control.srcs/sources_1/new/Control.v,,ALU_Control,,,,,,,,
-D:/Vivado/repos/Control/Control.srcs/sources_1/new/Control.v,1732976348,verilog,,D:/Vivado/repos/Control/Control.srcs/sim_1/new/Control_tb.v,,Control,,,,,,,,
+D:/Vivado/repos/Control/Control.srcs/sources_1/new/ALU_Control.v,1733280047,verilog,,D:/Vivado/repos/Control/Control.srcs/sources_1/new/Control.v,,ALU_Control,,,,,,,,
+D:/Vivado/repos/Control/Control.srcs/sources_1/new/Control.v,1733279911,verilog,,D:/Vivado/repos/Control/Control.srcs/sim_1/new/Control_tb.v,,Control,,,,,,,,

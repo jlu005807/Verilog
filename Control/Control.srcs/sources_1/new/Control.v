@@ -29,7 +29,7 @@ module Control( // 控制单元模块
            output wire MemRead, // 存储器读使能信号
            output wire MemWrite, // 存储器写使能信号
            output wire MemtoReg, // 存储器数据送入寄存器选择信号
-           output wire [5:0] ALUOp // ALU操作码
+           output wire [2:0] ALUOp // ALU操作码
        );
 // always @(*)begin
 //                 case (OP_code)
@@ -79,6 +79,6 @@ assign PCsrc = ~OP_code[3]&&OP_code[2]; // 程序计数器源选择为PC+4
 assign MemRead = OP_code[5]&&~OP_code[3]; // 存储器读使能
 assign MemWrite = OP_code[5]&&OP_code[3]; // 存储器写使能
 assign MemtoReg = ~OP_code[0]||(OP_code[3]&&OP_code[2]); // 存储器数据送入寄存器选择为寄存器B
-assign ALUOp = OP_code[5:0]; // ALU操作码
+assign ALUOp =OP_code[3:1] ; // ALU操作码
 
 endmodule // 控制单元模块结束

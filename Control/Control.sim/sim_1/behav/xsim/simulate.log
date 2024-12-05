@@ -7,3 +7,4 @@ op_code = 001111, func = 100100
 op_code = 000101, func = 100101
 op_code = 100011, func = 100110
 op_code = 101011, func = 100111
+$finish called at time : 80 ns : File "D:/Vivado/repos/Control/Control.srcs/sim_1/new/Control_tb.v" Line 70
