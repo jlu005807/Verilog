@@ -1,0 +1,13 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|     clk_out1_pll_example |                   cpuclk |                                                                                  cpu/pc/temp_pc_reg[21]/D|
+|     clk_out1_pll_example |                   cpuclk |                                                                                  cpu/pc/temp_pc_reg[17]/D|
+|     clk_out1_pll_example |                   cpuclk |                                                                                  cpu/pc/temp_pc_reg[13]/D|
+|     clk_out1_pll_example |                   cpuclk |                                                                                  cpu/pc/temp_pc_reg[11]/D|
+|     clk_out1_pll_example |                   cpuclk |                                                                                   cpu/pc/temp_pc_reg[9]/D|
+|     clk_out1_pll_example |                   cpuclk |                                                                                   cpu/pc/temp_pc_reg[7]/D|
+|     clk_out1_pll_example |                   cpuclk |                                                                                   cpu/pc/temp_pc_reg[5]/D|
+|     clk_out1_pll_example |                   cpuclk |                                                                                   cpu/pc/temp_pc_reg[3]/D|
+|     clk_out1_pll_example |                   cpuclk |                                                                                   cpu/pc/temp_pc_reg[2]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

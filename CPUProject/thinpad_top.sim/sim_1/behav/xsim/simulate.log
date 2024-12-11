@@ -1,0 +1,3519 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+[        0 ns]  --- Device is Busy  (start up time) --- 
+WARNING: Insufficient data from the input file for $fread
+BaseRAM Init Size(words):          18
+WARNING: file /tmp/eram.bin could not be opened
+Failed to open ExtRAM init file
+ExtRAM Init Size(words):           0
+[        0 ns]  ASynchronous Read Mode
+[        0 ns]  VDD Voltage is OK
+[        0 ns]  VDDQ Voltage is OK
+[        0 ns] Inizialize the Memory to default value
+WARNING: file /tmp/kernel.elf could not be opened
+[        0 ns] Warning: File: /tmp/kernel.elf not found
+i:         -1
+PC:00000000,instruction:zzzzzzzz
+instruction[31:26]:zzzzzz,rs:zzzzz,rt:zzzzz,rd:xxxxx,func:zzzzzz,imm:zzzzzzzzzzzzzzzz
+read_data1:xxxxxxxx,read_data2:xxxxxxxx,reg_write_data:xxxxxxxx,dm_read_data:x
+ALU_op1:xxxxxxxx,ALU_op2:xxxxxxxx,ALU_result:xxxxxxxx,zero:x,PCsrc:x,Memtoreg:x,bne_addr:xxxxxxxx
+
+[       60 ns]  --- Device is Ready (end of start-up time) --- 
+i:          0
+PC:00000004,instruction:34080001
+instruction[31:26]:001101,rs:00000,rt:01000,rd:01000,func:000001,imm:0000000000000001
+read_data1:00000000,read_data2:00000001,reg_write_data:00000001,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000001,ALU_result:00000001,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000008
+
+i:          1
+PC:00000008,instruction:34090001
+instruction[31:26]:001101,rs:00000,rt:01001,rd:01001,func:000001,imm:0000000000000001
+read_data1:00000000,read_data2:00000000,reg_write_data:00000001,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000001,ALU_result:00000001,zero:0,PCsrc:0,Memtoreg:1,bne_addr:0000000c
+
+i:          2
+PC:0000000c,instruction:34110004
+instruction[31:26]:001101,rs:00000,rt:10001,rd:10001,func:000100,imm:0000000000000100
+read_data1:00000000,read_data2:00000000,reg_write_data:00000004,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000004,ALU_result:00000004,zero:0,PCsrc:0,Memtoreg:1,bne_addr:0000001c
+
+i:          3
+PC:00000010,instruction:340c0100
+instruction[31:26]:001101,rs:00000,rt:01100,rd:01100,func:000000,imm:0000000100000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000100,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000100,ALU_result:00000100,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000410
+
+i:          4
+PC:00000014,instruction:3c048040
+instruction[31:26]:001111,rs:00000,rt:00100,rd:00100,func:000000,imm:1000000001000000
+read_data1:00000000,read_data2:00000000,reg_write_data:80400000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:ffff8040,ALU_result:80400000,zero:0,PCsrc:0,Memtoreg:1,bne_addr:fffe0114
+
+i:          5
+PC:00000018,instruction:008c6821
+instruction[31:26]:000000,rs:00100,rt:01100,rd:01101,func:100001,imm:0110100000100001
+read_data1:80400000,read_data2:00000100,reg_write_data:80400100,dm_read_data:z
+ALU_op1:80400000,ALU_op2:00000100,ALU_result:80400100,zero:0,PCsrc:0,Memtoreg:1,bne_addr:0001a09c
+
+i:          6
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000001,read_data2:00000001,reg_write_data:00000002,dm_read_data:z
+ALU_op1:00000001,ALU_op2:00000001,ALU_result:00000002,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:          7
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000001,read_data2:00000001,reg_write_data:00000001,dm_read_data:z
+ALU_op1:00000001,ALU_op2:00000000,ALU_result:00000001,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:          8
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000002,read_data2:00000001,reg_write_data:00000002,dm_read_data:z
+ALU_op1:00000002,ALU_op2:00000000,ALU_result:00000002,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:          9
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400000,read_data2:00000002,reg_write_data:00000002,dm_read_data:0
+ALU_op1:80400000,ALU_op2:00000000,ALU_result:80400000,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         10
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400000,read_data2:00000000,reg_write_data:00000002,dm_read_data:0
+ALU_op1:80400000,ALU_op2:00000000,ALU_result:80400000,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         11
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000002,read_data2:00000002,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000002,ALU_op2:00000002,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         12
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         13
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400000,read_data2:00000004,reg_write_data:80400004,dm_read_data:z
+ALU_op1:80400000,ALU_op2:00000004,ALU_result:80400004,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         14
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400004,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400004,ALU_op2:80400100,ALU_result:ffffff04,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         15
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000001,read_data2:00000002,reg_write_data:00000003,dm_read_data:z
+ALU_op1:00000001,ALU_op2:00000002,ALU_result:00000003,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         16
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000002,read_data2:00000001,reg_write_data:00000002,dm_read_data:z
+ALU_op1:00000002,ALU_op2:00000000,ALU_result:00000002,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         17
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000003,read_data2:00000002,reg_write_data:00000003,dm_read_data:z
+ALU_op1:00000003,ALU_op2:00000000,ALU_result:00000003,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         18
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400004,read_data2:00000003,reg_write_data:00000003,dm_read_data:1
+ALU_op1:80400004,ALU_op2:00000000,ALU_result:80400004,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         19
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400004,read_data2:00000002,reg_write_data:00000003,dm_read_data:1
+ALU_op1:80400004,ALU_op2:00000000,ALU_result:80400004,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         20
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000003,read_data2:00000003,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000003,ALU_op2:00000003,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         21
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         22
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400004,read_data2:00000004,reg_write_data:80400008,dm_read_data:z
+ALU_op1:80400004,ALU_op2:00000004,ALU_result:80400008,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         23
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400008,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400008,ALU_op2:80400100,ALU_result:ffffff08,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         24
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000002,read_data2:00000003,reg_write_data:00000005,dm_read_data:z
+ALU_op1:00000002,ALU_op2:00000003,ALU_result:00000005,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         25
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000003,read_data2:00000002,reg_write_data:00000003,dm_read_data:z
+ALU_op1:00000003,ALU_op2:00000000,ALU_result:00000003,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         26
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000005,read_data2:00000003,reg_write_data:00000005,dm_read_data:z
+ALU_op1:00000005,ALU_op2:00000000,ALU_result:00000005,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         27
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400008,read_data2:00000005,reg_write_data:00000005,dm_read_data:1
+ALU_op1:80400008,ALU_op2:00000000,ALU_result:80400008,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         28
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400008,read_data2:00000003,reg_write_data:00000005,dm_read_data:1
+ALU_op1:80400008,ALU_op2:00000000,ALU_result:80400008,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         29
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000005,read_data2:00000005,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000005,ALU_op2:00000005,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         30
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         31
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400008,read_data2:00000004,reg_write_data:8040000c,dm_read_data:z
+ALU_op1:80400008,ALU_op2:00000004,ALU_result:8040000c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         32
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040000c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040000c,ALU_op2:80400100,ALU_result:ffffff0c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         33
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000003,read_data2:00000005,reg_write_data:00000008,dm_read_data:z
+ALU_op1:00000003,ALU_op2:00000005,ALU_result:00000008,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         34
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000005,read_data2:00000003,reg_write_data:00000005,dm_read_data:z
+ALU_op1:00000005,ALU_op2:00000000,ALU_result:00000005,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         35
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000008,read_data2:00000005,reg_write_data:00000008,dm_read_data:z
+ALU_op1:00000008,ALU_op2:00000000,ALU_result:00000008,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         36
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040000c,read_data2:00000008,reg_write_data:00000008,dm_read_data:0
+ALU_op1:8040000c,ALU_op2:00000000,ALU_result:8040000c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         37
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040000c,read_data2:00000005,reg_write_data:00000008,dm_read_data:0
+ALU_op1:8040000c,ALU_op2:00000000,ALU_result:8040000c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         38
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000008,read_data2:00000008,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000008,ALU_op2:00000008,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         39
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         40
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040000c,read_data2:00000004,reg_write_data:80400010,dm_read_data:z
+ALU_op1:8040000c,ALU_op2:00000004,ALU_result:80400010,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         41
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400010,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400010,ALU_op2:80400100,ALU_result:ffffff10,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         42
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000005,read_data2:00000008,reg_write_data:0000000d,dm_read_data:z
+ALU_op1:00000005,ALU_op2:00000008,ALU_result:0000000d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         43
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000008,read_data2:00000005,reg_write_data:00000008,dm_read_data:z
+ALU_op1:00000008,ALU_op2:00000000,ALU_result:00000008,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         44
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0000000d,read_data2:00000008,reg_write_data:0000000d,dm_read_data:z
+ALU_op1:0000000d,ALU_op2:00000000,ALU_result:0000000d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         45
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400010,read_data2:0000000d,reg_write_data:0000000d,dm_read_data:1
+ALU_op1:80400010,ALU_op2:00000000,ALU_result:80400010,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         46
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400010,read_data2:00000008,reg_write_data:0000000d,dm_read_data:1
+ALU_op1:80400010,ALU_op2:00000000,ALU_result:80400010,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         47
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0000000d,read_data2:0000000d,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0000000d,ALU_op2:0000000d,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         48
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         49
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400010,read_data2:00000004,reg_write_data:80400014,dm_read_data:z
+ALU_op1:80400010,ALU_op2:00000004,ALU_result:80400014,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         50
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400014,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400014,ALU_op2:80400100,ALU_result:ffffff14,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         51
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000008,read_data2:0000000d,reg_write_data:00000015,dm_read_data:z
+ALU_op1:00000008,ALU_op2:0000000d,ALU_result:00000015,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         52
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0000000d,read_data2:00000008,reg_write_data:0000000d,dm_read_data:z
+ALU_op1:0000000d,ALU_op2:00000000,ALU_result:0000000d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         53
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000015,read_data2:0000000d,reg_write_data:00000015,dm_read_data:z
+ALU_op1:00000015,ALU_op2:00000000,ALU_result:00000015,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         54
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400014,read_data2:00000015,reg_write_data:00000015,dm_read_data:1
+ALU_op1:80400014,ALU_op2:00000000,ALU_result:80400014,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         55
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400014,read_data2:0000000d,reg_write_data:00000015,dm_read_data:1
+ALU_op1:80400014,ALU_op2:00000000,ALU_result:80400014,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         56
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000015,read_data2:00000015,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000015,ALU_op2:00000015,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         57
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         58
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400014,read_data2:00000004,reg_write_data:80400018,dm_read_data:z
+ALU_op1:80400014,ALU_op2:00000004,ALU_result:80400018,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         59
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400018,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400018,ALU_op2:80400100,ALU_result:ffffff18,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         60
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0000000d,read_data2:00000015,reg_write_data:00000022,dm_read_data:z
+ALU_op1:0000000d,ALU_op2:00000015,ALU_result:00000022,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         61
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000015,read_data2:0000000d,reg_write_data:00000015,dm_read_data:z
+ALU_op1:00000015,ALU_op2:00000000,ALU_result:00000015,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         62
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000022,read_data2:00000015,reg_write_data:00000022,dm_read_data:z
+ALU_op1:00000022,ALU_op2:00000000,ALU_result:00000022,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         63
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400018,read_data2:00000022,reg_write_data:00000022,dm_read_data:0
+ALU_op1:80400018,ALU_op2:00000000,ALU_result:80400018,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         64
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400018,read_data2:00000015,reg_write_data:00000022,dm_read_data:0
+ALU_op1:80400018,ALU_op2:00000000,ALU_result:80400018,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         65
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000022,read_data2:00000022,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000022,ALU_op2:00000022,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         66
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         67
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400018,read_data2:00000004,reg_write_data:8040001c,dm_read_data:z
+ALU_op1:80400018,ALU_op2:00000004,ALU_result:8040001c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         68
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040001c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040001c,ALU_op2:80400100,ALU_result:ffffff1c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         69
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000015,read_data2:00000022,reg_write_data:00000037,dm_read_data:z
+ALU_op1:00000015,ALU_op2:00000022,ALU_result:00000037,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         70
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000022,read_data2:00000015,reg_write_data:00000022,dm_read_data:z
+ALU_op1:00000022,ALU_op2:00000000,ALU_result:00000022,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         71
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000037,read_data2:00000022,reg_write_data:00000037,dm_read_data:z
+ALU_op1:00000037,ALU_op2:00000000,ALU_result:00000037,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         72
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040001c,read_data2:00000037,reg_write_data:00000037,dm_read_data:1
+ALU_op1:8040001c,ALU_op2:00000000,ALU_result:8040001c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         73
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040001c,read_data2:00000022,reg_write_data:00000037,dm_read_data:1
+ALU_op1:8040001c,ALU_op2:00000000,ALU_result:8040001c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         74
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000037,read_data2:00000037,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000037,ALU_op2:00000037,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         75
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         76
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040001c,read_data2:00000004,reg_write_data:80400020,dm_read_data:z
+ALU_op1:8040001c,ALU_op2:00000004,ALU_result:80400020,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         77
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400020,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400020,ALU_op2:80400100,ALU_result:ffffff20,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         78
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000022,read_data2:00000037,reg_write_data:00000059,dm_read_data:z
+ALU_op1:00000022,ALU_op2:00000037,ALU_result:00000059,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         79
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000037,read_data2:00000022,reg_write_data:00000037,dm_read_data:z
+ALU_op1:00000037,ALU_op2:00000000,ALU_result:00000037,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         80
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000059,read_data2:00000037,reg_write_data:00000059,dm_read_data:z
+ALU_op1:00000059,ALU_op2:00000000,ALU_result:00000059,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         81
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400020,read_data2:00000059,reg_write_data:00000059,dm_read_data:1
+ALU_op1:80400020,ALU_op2:00000000,ALU_result:80400020,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         82
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400020,read_data2:00000037,reg_write_data:00000059,dm_read_data:1
+ALU_op1:80400020,ALU_op2:00000000,ALU_result:80400020,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         83
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000059,read_data2:00000059,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000059,ALU_op2:00000059,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         84
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         85
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400020,read_data2:00000004,reg_write_data:80400024,dm_read_data:z
+ALU_op1:80400020,ALU_op2:00000004,ALU_result:80400024,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         86
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400024,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400024,ALU_op2:80400100,ALU_result:ffffff24,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         87
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000037,read_data2:00000059,reg_write_data:00000090,dm_read_data:z
+ALU_op1:00000037,ALU_op2:00000059,ALU_result:00000090,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         88
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000059,read_data2:00000037,reg_write_data:00000059,dm_read_data:z
+ALU_op1:00000059,ALU_op2:00000000,ALU_result:00000059,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         89
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000090,read_data2:00000059,reg_write_data:00000090,dm_read_data:z
+ALU_op1:00000090,ALU_op2:00000000,ALU_result:00000090,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         90
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400024,read_data2:00000090,reg_write_data:00000090,dm_read_data:0
+ALU_op1:80400024,ALU_op2:00000000,ALU_result:80400024,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:         91
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400024,read_data2:00000059,reg_write_data:00000090,dm_read_data:0
+ALU_op1:80400024,ALU_op2:00000000,ALU_result:80400024,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:         92
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000090,read_data2:00000090,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000090,ALU_op2:00000090,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:         93
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:         94
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400024,read_data2:00000004,reg_write_data:80400028,dm_read_data:z
+ALU_op1:80400024,ALU_op2:00000004,ALU_result:80400028,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:         95
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400028,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400028,ALU_op2:80400100,ALU_result:ffffff28,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:         96
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000059,read_data2:00000090,reg_write_data:000000e9,dm_read_data:z
+ALU_op1:00000059,ALU_op2:00000090,ALU_result:000000e9,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:         97
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000090,read_data2:00000059,reg_write_data:00000090,dm_read_data:z
+ALU_op1:00000090,ALU_op2:00000000,ALU_result:00000090,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:         98
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:000000e9,read_data2:00000090,reg_write_data:000000e9,dm_read_data:z
+ALU_op1:000000e9,ALU_op2:00000000,ALU_result:000000e9,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:         99
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400028,read_data2:000000e9,reg_write_data:000000e9,dm_read_data:1
+ALU_op1:80400028,ALU_op2:00000000,ALU_result:80400028,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        100
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400028,read_data2:00000090,reg_write_data:000000e9,dm_read_data:1
+ALU_op1:80400028,ALU_op2:00000000,ALU_result:80400028,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        101
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:000000e9,read_data2:000000e9,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:000000e9,ALU_op2:000000e9,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        102
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        103
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400028,read_data2:00000004,reg_write_data:8040002c,dm_read_data:z
+ALU_op1:80400028,ALU_op2:00000004,ALU_result:8040002c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        104
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040002c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040002c,ALU_op2:80400100,ALU_result:ffffff2c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        105
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000090,read_data2:000000e9,reg_write_data:00000179,dm_read_data:z
+ALU_op1:00000090,ALU_op2:000000e9,ALU_result:00000179,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        106
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:000000e9,read_data2:00000090,reg_write_data:000000e9,dm_read_data:z
+ALU_op1:000000e9,ALU_op2:00000000,ALU_result:000000e9,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        107
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000179,read_data2:000000e9,reg_write_data:00000179,dm_read_data:z
+ALU_op1:00000179,ALU_op2:00000000,ALU_result:00000179,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        108
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040002c,read_data2:00000179,reg_write_data:00000179,dm_read_data:1
+ALU_op1:8040002c,ALU_op2:00000000,ALU_result:8040002c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        109
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040002c,read_data2:000000e9,reg_write_data:00000179,dm_read_data:1
+ALU_op1:8040002c,ALU_op2:00000000,ALU_result:8040002c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        110
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000179,read_data2:00000179,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000179,ALU_op2:00000179,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        111
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        112
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040002c,read_data2:00000004,reg_write_data:80400030,dm_read_data:z
+ALU_op1:8040002c,ALU_op2:00000004,ALU_result:80400030,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        113
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400030,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400030,ALU_op2:80400100,ALU_result:ffffff30,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        114
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:000000e9,read_data2:00000179,reg_write_data:00000262,dm_read_data:z
+ALU_op1:000000e9,ALU_op2:00000179,ALU_result:00000262,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        115
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000179,read_data2:000000e9,reg_write_data:00000179,dm_read_data:z
+ALU_op1:00000179,ALU_op2:00000000,ALU_result:00000179,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        116
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000262,read_data2:00000179,reg_write_data:00000262,dm_read_data:z
+ALU_op1:00000262,ALU_op2:00000000,ALU_result:00000262,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        117
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400030,read_data2:00000262,reg_write_data:00000262,dm_read_data:0
+ALU_op1:80400030,ALU_op2:00000000,ALU_result:80400030,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        118
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400030,read_data2:00000179,reg_write_data:00000262,dm_read_data:0
+ALU_op1:80400030,ALU_op2:00000000,ALU_result:80400030,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        119
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000262,read_data2:00000262,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000262,ALU_op2:00000262,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        120
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        121
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400030,read_data2:00000004,reg_write_data:80400034,dm_read_data:z
+ALU_op1:80400030,ALU_op2:00000004,ALU_result:80400034,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        122
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400034,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400034,ALU_op2:80400100,ALU_result:ffffff34,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        123
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000179,read_data2:00000262,reg_write_data:000003db,dm_read_data:z
+ALU_op1:00000179,ALU_op2:00000262,ALU_result:000003db,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        124
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000262,read_data2:00000179,reg_write_data:00000262,dm_read_data:z
+ALU_op1:00000262,ALU_op2:00000000,ALU_result:00000262,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        125
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:000003db,read_data2:00000262,reg_write_data:000003db,dm_read_data:z
+ALU_op1:000003db,ALU_op2:00000000,ALU_result:000003db,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        126
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400034,read_data2:000003db,reg_write_data:000003db,dm_read_data:1
+ALU_op1:80400034,ALU_op2:00000000,ALU_result:80400034,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        127
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400034,read_data2:00000262,reg_write_data:000003db,dm_read_data:1
+ALU_op1:80400034,ALU_op2:00000000,ALU_result:80400034,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        128
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:000003db,read_data2:000003db,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:000003db,ALU_op2:000003db,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        129
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        130
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400034,read_data2:00000004,reg_write_data:80400038,dm_read_data:z
+ALU_op1:80400034,ALU_op2:00000004,ALU_result:80400038,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        131
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400038,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400038,ALU_op2:80400100,ALU_result:ffffff38,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        132
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000262,read_data2:000003db,reg_write_data:0000063d,dm_read_data:z
+ALU_op1:00000262,ALU_op2:000003db,ALU_result:0000063d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        133
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:000003db,read_data2:00000262,reg_write_data:000003db,dm_read_data:z
+ALU_op1:000003db,ALU_op2:00000000,ALU_result:000003db,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        134
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0000063d,read_data2:000003db,reg_write_data:0000063d,dm_read_data:z
+ALU_op1:0000063d,ALU_op2:00000000,ALU_result:0000063d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        135
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400038,read_data2:0000063d,reg_write_data:0000063d,dm_read_data:1
+ALU_op1:80400038,ALU_op2:00000000,ALU_result:80400038,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        136
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400038,read_data2:000003db,reg_write_data:0000063d,dm_read_data:1
+ALU_op1:80400038,ALU_op2:00000000,ALU_result:80400038,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        137
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0000063d,read_data2:0000063d,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0000063d,ALU_op2:0000063d,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        138
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        139
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400038,read_data2:00000004,reg_write_data:8040003c,dm_read_data:z
+ALU_op1:80400038,ALU_op2:00000004,ALU_result:8040003c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        140
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040003c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040003c,ALU_op2:80400100,ALU_result:ffffff3c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        141
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:000003db,read_data2:0000063d,reg_write_data:00000a18,dm_read_data:z
+ALU_op1:000003db,ALU_op2:0000063d,ALU_result:00000a18,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        142
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0000063d,read_data2:000003db,reg_write_data:0000063d,dm_read_data:z
+ALU_op1:0000063d,ALU_op2:00000000,ALU_result:0000063d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        143
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00000a18,read_data2:0000063d,reg_write_data:00000a18,dm_read_data:z
+ALU_op1:00000a18,ALU_op2:00000000,ALU_result:00000a18,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        144
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040003c,read_data2:00000a18,reg_write_data:00000a18,dm_read_data:0
+ALU_op1:8040003c,ALU_op2:00000000,ALU_result:8040003c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        145
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040003c,read_data2:0000063d,reg_write_data:00000a18,dm_read_data:0
+ALU_op1:8040003c,ALU_op2:00000000,ALU_result:8040003c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        146
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00000a18,read_data2:00000a18,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00000a18,ALU_op2:00000a18,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        147
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        148
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040003c,read_data2:00000004,reg_write_data:80400040,dm_read_data:z
+ALU_op1:8040003c,ALU_op2:00000004,ALU_result:80400040,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        149
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400040,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400040,ALU_op2:80400100,ALU_result:ffffff40,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        150
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0000063d,read_data2:00000a18,reg_write_data:00001055,dm_read_data:z
+ALU_op1:0000063d,ALU_op2:00000a18,ALU_result:00001055,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        151
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00000a18,read_data2:0000063d,reg_write_data:00000a18,dm_read_data:z
+ALU_op1:00000a18,ALU_op2:00000000,ALU_result:00000a18,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        152
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00001055,read_data2:00000a18,reg_write_data:00001055,dm_read_data:z
+ALU_op1:00001055,ALU_op2:00000000,ALU_result:00001055,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        153
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400040,read_data2:00001055,reg_write_data:00001055,dm_read_data:1
+ALU_op1:80400040,ALU_op2:00000000,ALU_result:80400040,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        154
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400040,read_data2:00000a18,reg_write_data:00001055,dm_read_data:1
+ALU_op1:80400040,ALU_op2:00000000,ALU_result:80400040,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        155
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00001055,read_data2:00001055,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00001055,ALU_op2:00001055,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        156
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        157
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400040,read_data2:00000004,reg_write_data:80400044,dm_read_data:z
+ALU_op1:80400040,ALU_op2:00000004,ALU_result:80400044,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        158
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400044,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400044,ALU_op2:80400100,ALU_result:ffffff44,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        159
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00000a18,read_data2:00001055,reg_write_data:00001a6d,dm_read_data:z
+ALU_op1:00000a18,ALU_op2:00001055,ALU_result:00001a6d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        160
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00001055,read_data2:00000a18,reg_write_data:00001055,dm_read_data:z
+ALU_op1:00001055,ALU_op2:00000000,ALU_result:00001055,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        161
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00001a6d,read_data2:00001055,reg_write_data:00001a6d,dm_read_data:z
+ALU_op1:00001a6d,ALU_op2:00000000,ALU_result:00001a6d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        162
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400044,read_data2:00001a6d,reg_write_data:00001a6d,dm_read_data:1
+ALU_op1:80400044,ALU_op2:00000000,ALU_result:80400044,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        163
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400044,read_data2:00001055,reg_write_data:00001a6d,dm_read_data:1
+ALU_op1:80400044,ALU_op2:00000000,ALU_result:80400044,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        164
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00001a6d,read_data2:00001a6d,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00001a6d,ALU_op2:00001a6d,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        165
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        166
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400044,read_data2:00000004,reg_write_data:80400048,dm_read_data:z
+ALU_op1:80400044,ALU_op2:00000004,ALU_result:80400048,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        167
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400048,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400048,ALU_op2:80400100,ALU_result:ffffff48,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        168
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00001055,read_data2:00001a6d,reg_write_data:00002ac2,dm_read_data:z
+ALU_op1:00001055,ALU_op2:00001a6d,ALU_result:00002ac2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        169
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00001a6d,read_data2:00001055,reg_write_data:00001a6d,dm_read_data:z
+ALU_op1:00001a6d,ALU_op2:00000000,ALU_result:00001a6d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        170
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00002ac2,read_data2:00001a6d,reg_write_data:00002ac2,dm_read_data:z
+ALU_op1:00002ac2,ALU_op2:00000000,ALU_result:00002ac2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        171
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400048,read_data2:00002ac2,reg_write_data:00002ac2,dm_read_data:0
+ALU_op1:80400048,ALU_op2:00000000,ALU_result:80400048,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        172
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400048,read_data2:00001a6d,reg_write_data:00002ac2,dm_read_data:0
+ALU_op1:80400048,ALU_op2:00000000,ALU_result:80400048,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        173
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00002ac2,read_data2:00002ac2,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00002ac2,ALU_op2:00002ac2,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        174
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        175
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400048,read_data2:00000004,reg_write_data:8040004c,dm_read_data:z
+ALU_op1:80400048,ALU_op2:00000004,ALU_result:8040004c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        176
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040004c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040004c,ALU_op2:80400100,ALU_result:ffffff4c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        177
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00001a6d,read_data2:00002ac2,reg_write_data:0000452f,dm_read_data:z
+ALU_op1:00001a6d,ALU_op2:00002ac2,ALU_result:0000452f,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        178
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00002ac2,read_data2:00001a6d,reg_write_data:00002ac2,dm_read_data:z
+ALU_op1:00002ac2,ALU_op2:00000000,ALU_result:00002ac2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        179
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0000452f,read_data2:00002ac2,reg_write_data:0000452f,dm_read_data:z
+ALU_op1:0000452f,ALU_op2:00000000,ALU_result:0000452f,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        180
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040004c,read_data2:0000452f,reg_write_data:0000452f,dm_read_data:1
+ALU_op1:8040004c,ALU_op2:00000000,ALU_result:8040004c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        181
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040004c,read_data2:00002ac2,reg_write_data:0000452f,dm_read_data:1
+ALU_op1:8040004c,ALU_op2:00000000,ALU_result:8040004c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        182
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0000452f,read_data2:0000452f,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0000452f,ALU_op2:0000452f,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        183
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        184
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040004c,read_data2:00000004,reg_write_data:80400050,dm_read_data:z
+ALU_op1:8040004c,ALU_op2:00000004,ALU_result:80400050,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        185
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400050,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400050,ALU_op2:80400100,ALU_result:ffffff50,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        186
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00002ac2,read_data2:0000452f,reg_write_data:00006ff1,dm_read_data:z
+ALU_op1:00002ac2,ALU_op2:0000452f,ALU_result:00006ff1,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        187
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0000452f,read_data2:00002ac2,reg_write_data:0000452f,dm_read_data:z
+ALU_op1:0000452f,ALU_op2:00000000,ALU_result:0000452f,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        188
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00006ff1,read_data2:0000452f,reg_write_data:00006ff1,dm_read_data:z
+ALU_op1:00006ff1,ALU_op2:00000000,ALU_result:00006ff1,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        189
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400050,read_data2:00006ff1,reg_write_data:00006ff1,dm_read_data:1
+ALU_op1:80400050,ALU_op2:00000000,ALU_result:80400050,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        190
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400050,read_data2:0000452f,reg_write_data:00006ff1,dm_read_data:1
+ALU_op1:80400050,ALU_op2:00000000,ALU_result:80400050,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        191
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00006ff1,read_data2:00006ff1,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00006ff1,ALU_op2:00006ff1,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        192
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        193
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400050,read_data2:00000004,reg_write_data:80400054,dm_read_data:z
+ALU_op1:80400050,ALU_op2:00000004,ALU_result:80400054,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        194
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400054,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400054,ALU_op2:80400100,ALU_result:ffffff54,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        195
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0000452f,read_data2:00006ff1,reg_write_data:0000b520,dm_read_data:z
+ALU_op1:0000452f,ALU_op2:00006ff1,ALU_result:0000b520,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        196
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00006ff1,read_data2:0000452f,reg_write_data:00006ff1,dm_read_data:z
+ALU_op1:00006ff1,ALU_op2:00000000,ALU_result:00006ff1,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        197
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0000b520,read_data2:00006ff1,reg_write_data:0000b520,dm_read_data:z
+ALU_op1:0000b520,ALU_op2:00000000,ALU_result:0000b520,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        198
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400054,read_data2:0000b520,reg_write_data:0000b520,dm_read_data:0
+ALU_op1:80400054,ALU_op2:00000000,ALU_result:80400054,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        199
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400054,read_data2:00006ff1,reg_write_data:0000b520,dm_read_data:0
+ALU_op1:80400054,ALU_op2:00000000,ALU_result:80400054,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        200
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0000b520,read_data2:0000b520,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0000b520,ALU_op2:0000b520,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        201
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        202
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400054,read_data2:00000004,reg_write_data:80400058,dm_read_data:z
+ALU_op1:80400054,ALU_op2:00000004,ALU_result:80400058,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        203
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400058,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400058,ALU_op2:80400100,ALU_result:ffffff58,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        204
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00006ff1,read_data2:0000b520,reg_write_data:00012511,dm_read_data:z
+ALU_op1:00006ff1,ALU_op2:0000b520,ALU_result:00012511,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        205
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0000b520,read_data2:00006ff1,reg_write_data:0000b520,dm_read_data:z
+ALU_op1:0000b520,ALU_op2:00000000,ALU_result:0000b520,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        206
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00012511,read_data2:0000b520,reg_write_data:00012511,dm_read_data:z
+ALU_op1:00012511,ALU_op2:00000000,ALU_result:00012511,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        207
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400058,read_data2:00012511,reg_write_data:00012511,dm_read_data:1
+ALU_op1:80400058,ALU_op2:00000000,ALU_result:80400058,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        208
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400058,read_data2:0000b520,reg_write_data:00012511,dm_read_data:1
+ALU_op1:80400058,ALU_op2:00000000,ALU_result:80400058,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        209
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00012511,read_data2:00012511,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00012511,ALU_op2:00012511,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        210
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        211
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400058,read_data2:00000004,reg_write_data:8040005c,dm_read_data:z
+ALU_op1:80400058,ALU_op2:00000004,ALU_result:8040005c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        212
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040005c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040005c,ALU_op2:80400100,ALU_result:ffffff5c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        213
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0000b520,read_data2:00012511,reg_write_data:0001da31,dm_read_data:z
+ALU_op1:0000b520,ALU_op2:00012511,ALU_result:0001da31,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        214
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00012511,read_data2:0000b520,reg_write_data:00012511,dm_read_data:z
+ALU_op1:00012511,ALU_op2:00000000,ALU_result:00012511,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        215
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0001da31,read_data2:00012511,reg_write_data:0001da31,dm_read_data:z
+ALU_op1:0001da31,ALU_op2:00000000,ALU_result:0001da31,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        216
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040005c,read_data2:0001da31,reg_write_data:0001da31,dm_read_data:1
+ALU_op1:8040005c,ALU_op2:00000000,ALU_result:8040005c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        217
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040005c,read_data2:00012511,reg_write_data:0001da31,dm_read_data:1
+ALU_op1:8040005c,ALU_op2:00000000,ALU_result:8040005c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        218
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0001da31,read_data2:0001da31,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0001da31,ALU_op2:0001da31,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        219
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        220
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040005c,read_data2:00000004,reg_write_data:80400060,dm_read_data:z
+ALU_op1:8040005c,ALU_op2:00000004,ALU_result:80400060,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        221
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400060,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400060,ALU_op2:80400100,ALU_result:ffffff60,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        222
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00012511,read_data2:0001da31,reg_write_data:0002ff42,dm_read_data:z
+ALU_op1:00012511,ALU_op2:0001da31,ALU_result:0002ff42,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        223
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0001da31,read_data2:00012511,reg_write_data:0001da31,dm_read_data:z
+ALU_op1:0001da31,ALU_op2:00000000,ALU_result:0001da31,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        224
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0002ff42,read_data2:0001da31,reg_write_data:0002ff42,dm_read_data:z
+ALU_op1:0002ff42,ALU_op2:00000000,ALU_result:0002ff42,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        225
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400060,read_data2:0002ff42,reg_write_data:0002ff42,dm_read_data:0
+ALU_op1:80400060,ALU_op2:00000000,ALU_result:80400060,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        226
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400060,read_data2:0001da31,reg_write_data:0002ff42,dm_read_data:0
+ALU_op1:80400060,ALU_op2:00000000,ALU_result:80400060,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        227
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0002ff42,read_data2:0002ff42,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0002ff42,ALU_op2:0002ff42,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        228
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        229
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400060,read_data2:00000004,reg_write_data:80400064,dm_read_data:z
+ALU_op1:80400060,ALU_op2:00000004,ALU_result:80400064,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        230
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400064,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400064,ALU_op2:80400100,ALU_result:ffffff64,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        231
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0001da31,read_data2:0002ff42,reg_write_data:0004d973,dm_read_data:z
+ALU_op1:0001da31,ALU_op2:0002ff42,ALU_result:0004d973,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        232
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0002ff42,read_data2:0001da31,reg_write_data:0002ff42,dm_read_data:z
+ALU_op1:0002ff42,ALU_op2:00000000,ALU_result:0002ff42,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        233
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0004d973,read_data2:0002ff42,reg_write_data:0004d973,dm_read_data:z
+ALU_op1:0004d973,ALU_op2:00000000,ALU_result:0004d973,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        234
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400064,read_data2:0004d973,reg_write_data:0004d973,dm_read_data:1
+ALU_op1:80400064,ALU_op2:00000000,ALU_result:80400064,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        235
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400064,read_data2:0002ff42,reg_write_data:0004d973,dm_read_data:1
+ALU_op1:80400064,ALU_op2:00000000,ALU_result:80400064,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        236
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0004d973,read_data2:0004d973,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0004d973,ALU_op2:0004d973,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        237
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        238
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400064,read_data2:00000004,reg_write_data:80400068,dm_read_data:z
+ALU_op1:80400064,ALU_op2:00000004,ALU_result:80400068,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        239
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400068,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400068,ALU_op2:80400100,ALU_result:ffffff68,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        240
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0002ff42,read_data2:0004d973,reg_write_data:0007d8b5,dm_read_data:z
+ALU_op1:0002ff42,ALU_op2:0004d973,ALU_result:0007d8b5,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        241
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0004d973,read_data2:0002ff42,reg_write_data:0004d973,dm_read_data:z
+ALU_op1:0004d973,ALU_op2:00000000,ALU_result:0004d973,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        242
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0007d8b5,read_data2:0004d973,reg_write_data:0007d8b5,dm_read_data:z
+ALU_op1:0007d8b5,ALU_op2:00000000,ALU_result:0007d8b5,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        243
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400068,read_data2:0007d8b5,reg_write_data:0007d8b5,dm_read_data:1
+ALU_op1:80400068,ALU_op2:00000000,ALU_result:80400068,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        244
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400068,read_data2:0004d973,reg_write_data:0007d8b5,dm_read_data:1
+ALU_op1:80400068,ALU_op2:00000000,ALU_result:80400068,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        245
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0007d8b5,read_data2:0007d8b5,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0007d8b5,ALU_op2:0007d8b5,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        246
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        247
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400068,read_data2:00000004,reg_write_data:8040006c,dm_read_data:z
+ALU_op1:80400068,ALU_op2:00000004,ALU_result:8040006c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        248
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040006c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040006c,ALU_op2:80400100,ALU_result:ffffff6c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        249
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0004d973,read_data2:0007d8b5,reg_write_data:000cb228,dm_read_data:z
+ALU_op1:0004d973,ALU_op2:0007d8b5,ALU_result:000cb228,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        250
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0007d8b5,read_data2:0004d973,reg_write_data:0007d8b5,dm_read_data:z
+ALU_op1:0007d8b5,ALU_op2:00000000,ALU_result:0007d8b5,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        251
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:000cb228,read_data2:0007d8b5,reg_write_data:000cb228,dm_read_data:z
+ALU_op1:000cb228,ALU_op2:00000000,ALU_result:000cb228,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        252
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040006c,read_data2:000cb228,reg_write_data:000cb228,dm_read_data:0
+ALU_op1:8040006c,ALU_op2:00000000,ALU_result:8040006c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        253
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040006c,read_data2:0007d8b5,reg_write_data:000cb228,dm_read_data:0
+ALU_op1:8040006c,ALU_op2:00000000,ALU_result:8040006c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        254
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:000cb228,read_data2:000cb228,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:000cb228,ALU_op2:000cb228,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        255
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        256
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040006c,read_data2:00000004,reg_write_data:80400070,dm_read_data:z
+ALU_op1:8040006c,ALU_op2:00000004,ALU_result:80400070,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        257
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400070,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400070,ALU_op2:80400100,ALU_result:ffffff70,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        258
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0007d8b5,read_data2:000cb228,reg_write_data:00148add,dm_read_data:z
+ALU_op1:0007d8b5,ALU_op2:000cb228,ALU_result:00148add,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        259
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:000cb228,read_data2:0007d8b5,reg_write_data:000cb228,dm_read_data:z
+ALU_op1:000cb228,ALU_op2:00000000,ALU_result:000cb228,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        260
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00148add,read_data2:000cb228,reg_write_data:00148add,dm_read_data:z
+ALU_op1:00148add,ALU_op2:00000000,ALU_result:00148add,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        261
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400070,read_data2:00148add,reg_write_data:00148add,dm_read_data:1
+ALU_op1:80400070,ALU_op2:00000000,ALU_result:80400070,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        262
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400070,read_data2:000cb228,reg_write_data:00148add,dm_read_data:1
+ALU_op1:80400070,ALU_op2:00000000,ALU_result:80400070,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        263
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00148add,read_data2:00148add,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00148add,ALU_op2:00148add,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        264
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        265
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400070,read_data2:00000004,reg_write_data:80400074,dm_read_data:z
+ALU_op1:80400070,ALU_op2:00000004,ALU_result:80400074,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        266
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400074,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400074,ALU_op2:80400100,ALU_result:ffffff74,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        267
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:000cb228,read_data2:00148add,reg_write_data:00213d05,dm_read_data:z
+ALU_op1:000cb228,ALU_op2:00148add,ALU_result:00213d05,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        268
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00148add,read_data2:000cb228,reg_write_data:00148add,dm_read_data:z
+ALU_op1:00148add,ALU_op2:00000000,ALU_result:00148add,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        269
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00213d05,read_data2:00148add,reg_write_data:00213d05,dm_read_data:z
+ALU_op1:00213d05,ALU_op2:00000000,ALU_result:00213d05,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        270
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400074,read_data2:00213d05,reg_write_data:00213d05,dm_read_data:1
+ALU_op1:80400074,ALU_op2:00000000,ALU_result:80400074,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        271
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400074,read_data2:00148add,reg_write_data:00213d05,dm_read_data:1
+ALU_op1:80400074,ALU_op2:00000000,ALU_result:80400074,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        272
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00213d05,read_data2:00213d05,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00213d05,ALU_op2:00213d05,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        273
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        274
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400074,read_data2:00000004,reg_write_data:80400078,dm_read_data:z
+ALU_op1:80400074,ALU_op2:00000004,ALU_result:80400078,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        275
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400078,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400078,ALU_op2:80400100,ALU_result:ffffff78,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        276
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00148add,read_data2:00213d05,reg_write_data:0035c7e2,dm_read_data:z
+ALU_op1:00148add,ALU_op2:00213d05,ALU_result:0035c7e2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        277
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00213d05,read_data2:00148add,reg_write_data:00213d05,dm_read_data:z
+ALU_op1:00213d05,ALU_op2:00000000,ALU_result:00213d05,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        278
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0035c7e2,read_data2:00213d05,reg_write_data:0035c7e2,dm_read_data:z
+ALU_op1:0035c7e2,ALU_op2:00000000,ALU_result:0035c7e2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        279
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400078,read_data2:0035c7e2,reg_write_data:0035c7e2,dm_read_data:0
+ALU_op1:80400078,ALU_op2:00000000,ALU_result:80400078,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        280
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400078,read_data2:00213d05,reg_write_data:0035c7e2,dm_read_data:0
+ALU_op1:80400078,ALU_op2:00000000,ALU_result:80400078,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        281
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0035c7e2,read_data2:0035c7e2,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0035c7e2,ALU_op2:0035c7e2,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        282
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        283
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400078,read_data2:00000004,reg_write_data:8040007c,dm_read_data:z
+ALU_op1:80400078,ALU_op2:00000004,ALU_result:8040007c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        284
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040007c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040007c,ALU_op2:80400100,ALU_result:ffffff7c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        285
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00213d05,read_data2:0035c7e2,reg_write_data:005704e7,dm_read_data:z
+ALU_op1:00213d05,ALU_op2:0035c7e2,ALU_result:005704e7,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        286
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0035c7e2,read_data2:00213d05,reg_write_data:0035c7e2,dm_read_data:z
+ALU_op1:0035c7e2,ALU_op2:00000000,ALU_result:0035c7e2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        287
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:005704e7,read_data2:0035c7e2,reg_write_data:005704e7,dm_read_data:z
+ALU_op1:005704e7,ALU_op2:00000000,ALU_result:005704e7,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        288
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040007c,read_data2:005704e7,reg_write_data:005704e7,dm_read_data:1
+ALU_op1:8040007c,ALU_op2:00000000,ALU_result:8040007c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        289
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040007c,read_data2:0035c7e2,reg_write_data:005704e7,dm_read_data:1
+ALU_op1:8040007c,ALU_op2:00000000,ALU_result:8040007c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        290
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:005704e7,read_data2:005704e7,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:005704e7,ALU_op2:005704e7,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        291
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        292
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040007c,read_data2:00000004,reg_write_data:80400080,dm_read_data:z
+ALU_op1:8040007c,ALU_op2:00000004,ALU_result:80400080,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        293
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400080,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400080,ALU_op2:80400100,ALU_result:ffffff80,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        294
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0035c7e2,read_data2:005704e7,reg_write_data:008cccc9,dm_read_data:z
+ALU_op1:0035c7e2,ALU_op2:005704e7,ALU_result:008cccc9,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        295
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:005704e7,read_data2:0035c7e2,reg_write_data:005704e7,dm_read_data:z
+ALU_op1:005704e7,ALU_op2:00000000,ALU_result:005704e7,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        296
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:008cccc9,read_data2:005704e7,reg_write_data:008cccc9,dm_read_data:z
+ALU_op1:008cccc9,ALU_op2:00000000,ALU_result:008cccc9,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        297
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400080,read_data2:008cccc9,reg_write_data:008cccc9,dm_read_data:1
+ALU_op1:80400080,ALU_op2:00000000,ALU_result:80400080,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        298
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400080,read_data2:005704e7,reg_write_data:008cccc9,dm_read_data:1
+ALU_op1:80400080,ALU_op2:00000000,ALU_result:80400080,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        299
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:008cccc9,read_data2:008cccc9,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:008cccc9,ALU_op2:008cccc9,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        300
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        301
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400080,read_data2:00000004,reg_write_data:80400084,dm_read_data:z
+ALU_op1:80400080,ALU_op2:00000004,ALU_result:80400084,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        302
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400084,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400084,ALU_op2:80400100,ALU_result:ffffff84,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        303
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:005704e7,read_data2:008cccc9,reg_write_data:00e3d1b0,dm_read_data:z
+ALU_op1:005704e7,ALU_op2:008cccc9,ALU_result:00e3d1b0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        304
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:008cccc9,read_data2:005704e7,reg_write_data:008cccc9,dm_read_data:z
+ALU_op1:008cccc9,ALU_op2:00000000,ALU_result:008cccc9,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        305
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:00e3d1b0,read_data2:008cccc9,reg_write_data:00e3d1b0,dm_read_data:z
+ALU_op1:00e3d1b0,ALU_op2:00000000,ALU_result:00e3d1b0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        306
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400084,read_data2:00e3d1b0,reg_write_data:00e3d1b0,dm_read_data:0
+ALU_op1:80400084,ALU_op2:00000000,ALU_result:80400084,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        307
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400084,read_data2:008cccc9,reg_write_data:00e3d1b0,dm_read_data:0
+ALU_op1:80400084,ALU_op2:00000000,ALU_result:80400084,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        308
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:00e3d1b0,read_data2:00e3d1b0,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:00e3d1b0,ALU_op2:00e3d1b0,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        309
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        310
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400084,read_data2:00000004,reg_write_data:80400088,dm_read_data:z
+ALU_op1:80400084,ALU_op2:00000004,ALU_result:80400088,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        311
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400088,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400088,ALU_op2:80400100,ALU_result:ffffff88,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        312
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:008cccc9,read_data2:00e3d1b0,reg_write_data:01709e79,dm_read_data:z
+ALU_op1:008cccc9,ALU_op2:00e3d1b0,ALU_result:01709e79,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        313
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:00e3d1b0,read_data2:008cccc9,reg_write_data:00e3d1b0,dm_read_data:z
+ALU_op1:00e3d1b0,ALU_op2:00000000,ALU_result:00e3d1b0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        314
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:01709e79,read_data2:00e3d1b0,reg_write_data:01709e79,dm_read_data:z
+ALU_op1:01709e79,ALU_op2:00000000,ALU_result:01709e79,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        315
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400088,read_data2:01709e79,reg_write_data:01709e79,dm_read_data:1
+ALU_op1:80400088,ALU_op2:00000000,ALU_result:80400088,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        316
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400088,read_data2:00e3d1b0,reg_write_data:01709e79,dm_read_data:1
+ALU_op1:80400088,ALU_op2:00000000,ALU_result:80400088,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        317
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:01709e79,read_data2:01709e79,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:01709e79,ALU_op2:01709e79,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        318
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        319
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400088,read_data2:00000004,reg_write_data:8040008c,dm_read_data:z
+ALU_op1:80400088,ALU_op2:00000004,ALU_result:8040008c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        320
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040008c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040008c,ALU_op2:80400100,ALU_result:ffffff8c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        321
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:00e3d1b0,read_data2:01709e79,reg_write_data:02547029,dm_read_data:z
+ALU_op1:00e3d1b0,ALU_op2:01709e79,ALU_result:02547029,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        322
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:01709e79,read_data2:00e3d1b0,reg_write_data:01709e79,dm_read_data:z
+ALU_op1:01709e79,ALU_op2:00000000,ALU_result:01709e79,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        323
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:02547029,read_data2:01709e79,reg_write_data:02547029,dm_read_data:z
+ALU_op1:02547029,ALU_op2:00000000,ALU_result:02547029,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        324
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040008c,read_data2:02547029,reg_write_data:02547029,dm_read_data:1
+ALU_op1:8040008c,ALU_op2:00000000,ALU_result:8040008c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        325
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040008c,read_data2:01709e79,reg_write_data:02547029,dm_read_data:1
+ALU_op1:8040008c,ALU_op2:00000000,ALU_result:8040008c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        326
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:02547029,read_data2:02547029,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:02547029,ALU_op2:02547029,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        327
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        328
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040008c,read_data2:00000004,reg_write_data:80400090,dm_read_data:z
+ALU_op1:8040008c,ALU_op2:00000004,ALU_result:80400090,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        329
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400090,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400090,ALU_op2:80400100,ALU_result:ffffff90,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        330
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:01709e79,read_data2:02547029,reg_write_data:03c50ea2,dm_read_data:z
+ALU_op1:01709e79,ALU_op2:02547029,ALU_result:03c50ea2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        331
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:02547029,read_data2:01709e79,reg_write_data:02547029,dm_read_data:z
+ALU_op1:02547029,ALU_op2:00000000,ALU_result:02547029,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        332
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:03c50ea2,read_data2:02547029,reg_write_data:03c50ea2,dm_read_data:z
+ALU_op1:03c50ea2,ALU_op2:00000000,ALU_result:03c50ea2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        333
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400090,read_data2:03c50ea2,reg_write_data:03c50ea2,dm_read_data:0
+ALU_op1:80400090,ALU_op2:00000000,ALU_result:80400090,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        334
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400090,read_data2:02547029,reg_write_data:03c50ea2,dm_read_data:0
+ALU_op1:80400090,ALU_op2:00000000,ALU_result:80400090,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        335
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:03c50ea2,read_data2:03c50ea2,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:03c50ea2,ALU_op2:03c50ea2,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        336
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        337
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400090,read_data2:00000004,reg_write_data:80400094,dm_read_data:z
+ALU_op1:80400090,ALU_op2:00000004,ALU_result:80400094,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        338
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400094,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400094,ALU_op2:80400100,ALU_result:ffffff94,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        339
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:02547029,read_data2:03c50ea2,reg_write_data:06197ecb,dm_read_data:z
+ALU_op1:02547029,ALU_op2:03c50ea2,ALU_result:06197ecb,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        340
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:03c50ea2,read_data2:02547029,reg_write_data:03c50ea2,dm_read_data:z
+ALU_op1:03c50ea2,ALU_op2:00000000,ALU_result:03c50ea2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        341
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:06197ecb,read_data2:03c50ea2,reg_write_data:06197ecb,dm_read_data:z
+ALU_op1:06197ecb,ALU_op2:00000000,ALU_result:06197ecb,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        342
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400094,read_data2:06197ecb,reg_write_data:06197ecb,dm_read_data:1
+ALU_op1:80400094,ALU_op2:00000000,ALU_result:80400094,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        343
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400094,read_data2:03c50ea2,reg_write_data:06197ecb,dm_read_data:1
+ALU_op1:80400094,ALU_op2:00000000,ALU_result:80400094,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        344
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:06197ecb,read_data2:06197ecb,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:06197ecb,ALU_op2:06197ecb,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        345
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        346
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400094,read_data2:00000004,reg_write_data:80400098,dm_read_data:z
+ALU_op1:80400094,ALU_op2:00000004,ALU_result:80400098,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        347
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400098,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400098,ALU_op2:80400100,ALU_result:ffffff98,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        348
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:03c50ea2,read_data2:06197ecb,reg_write_data:09de8d6d,dm_read_data:z
+ALU_op1:03c50ea2,ALU_op2:06197ecb,ALU_result:09de8d6d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        349
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:06197ecb,read_data2:03c50ea2,reg_write_data:06197ecb,dm_read_data:z
+ALU_op1:06197ecb,ALU_op2:00000000,ALU_result:06197ecb,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        350
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:09de8d6d,read_data2:06197ecb,reg_write_data:09de8d6d,dm_read_data:z
+ALU_op1:09de8d6d,ALU_op2:00000000,ALU_result:09de8d6d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        351
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:80400098,read_data2:09de8d6d,reg_write_data:09de8d6d,dm_read_data:1
+ALU_op1:80400098,ALU_op2:00000000,ALU_result:80400098,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        352
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:80400098,read_data2:06197ecb,reg_write_data:09de8d6d,dm_read_data:1
+ALU_op1:80400098,ALU_op2:00000000,ALU_result:80400098,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        353
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:09de8d6d,read_data2:09de8d6d,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:09de8d6d,ALU_op2:09de8d6d,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        354
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        355
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:80400098,read_data2:00000004,reg_write_data:8040009c,dm_read_data:z
+ALU_op1:80400098,ALU_op2:00000004,ALU_result:8040009c,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        356
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:8040009c,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8040009c,ALU_op2:80400100,ALU_result:ffffff9c,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        357
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:06197ecb,read_data2:09de8d6d,reg_write_data:0ff80c38,dm_read_data:z
+ALU_op1:06197ecb,ALU_op2:09de8d6d,ALU_result:0ff80c38,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        358
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:09de8d6d,read_data2:06197ecb,reg_write_data:09de8d6d,dm_read_data:z
+ALU_op1:09de8d6d,ALU_op2:00000000,ALU_result:09de8d6d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        359
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:0ff80c38,read_data2:09de8d6d,reg_write_data:0ff80c38,dm_read_data:z
+ALU_op1:0ff80c38,ALU_op2:00000000,ALU_result:0ff80c38,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        360
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8040009c,read_data2:0ff80c38,reg_write_data:0ff80c38,dm_read_data:0
+ALU_op1:8040009c,ALU_op2:00000000,ALU_result:8040009c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        361
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:8040009c,read_data2:09de8d6d,reg_write_data:0ff80c38,dm_read_data:0
+ALU_op1:8040009c,ALU_op2:00000000,ALU_result:8040009c,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        362
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:0ff80c38,read_data2:0ff80c38,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:0ff80c38,ALU_op2:0ff80c38,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        363
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        364
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:8040009c,read_data2:00000004,reg_write_data:804000a0,dm_read_data:z
+ALU_op1:8040009c,ALU_op2:00000004,ALU_result:804000a0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        365
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000a0,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000a0,ALU_op2:80400100,ALU_result:ffffffa0,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        366
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:09de8d6d,read_data2:0ff80c38,reg_write_data:19d699a5,dm_read_data:z
+ALU_op1:09de8d6d,ALU_op2:0ff80c38,ALU_result:19d699a5,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        367
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:0ff80c38,read_data2:09de8d6d,reg_write_data:0ff80c38,dm_read_data:z
+ALU_op1:0ff80c38,ALU_op2:00000000,ALU_result:0ff80c38,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        368
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:19d699a5,read_data2:0ff80c38,reg_write_data:19d699a5,dm_read_data:z
+ALU_op1:19d699a5,ALU_op2:00000000,ALU_result:19d699a5,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        369
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000a0,read_data2:19d699a5,reg_write_data:19d699a5,dm_read_data:1
+ALU_op1:804000a0,ALU_op2:00000000,ALU_result:804000a0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        370
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000a0,read_data2:0ff80c38,reg_write_data:19d699a5,dm_read_data:1
+ALU_op1:804000a0,ALU_op2:00000000,ALU_result:804000a0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        371
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:19d699a5,read_data2:19d699a5,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:19d699a5,ALU_op2:19d699a5,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        372
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        373
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000a0,read_data2:00000004,reg_write_data:804000a4,dm_read_data:z
+ALU_op1:804000a0,ALU_op2:00000004,ALU_result:804000a4,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        374
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000a4,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000a4,ALU_op2:80400100,ALU_result:ffffffa4,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        375
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:0ff80c38,read_data2:19d699a5,reg_write_data:29cea5dd,dm_read_data:z
+ALU_op1:0ff80c38,ALU_op2:19d699a5,ALU_result:29cea5dd,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        376
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:19d699a5,read_data2:0ff80c38,reg_write_data:19d699a5,dm_read_data:z
+ALU_op1:19d699a5,ALU_op2:00000000,ALU_result:19d699a5,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        377
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:29cea5dd,read_data2:19d699a5,reg_write_data:29cea5dd,dm_read_data:z
+ALU_op1:29cea5dd,ALU_op2:00000000,ALU_result:29cea5dd,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        378
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000a4,read_data2:29cea5dd,reg_write_data:29cea5dd,dm_read_data:1
+ALU_op1:804000a4,ALU_op2:00000000,ALU_result:804000a4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        379
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000a4,read_data2:19d699a5,reg_write_data:29cea5dd,dm_read_data:1
+ALU_op1:804000a4,ALU_op2:00000000,ALU_result:804000a4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        380
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:29cea5dd,read_data2:29cea5dd,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:29cea5dd,ALU_op2:29cea5dd,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        381
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        382
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000a4,read_data2:00000004,reg_write_data:804000a8,dm_read_data:z
+ALU_op1:804000a4,ALU_op2:00000004,ALU_result:804000a8,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        383
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000a8,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000a8,ALU_op2:80400100,ALU_result:ffffffa8,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        384
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:19d699a5,read_data2:29cea5dd,reg_write_data:43a53f82,dm_read_data:z
+ALU_op1:19d699a5,ALU_op2:29cea5dd,ALU_result:43a53f82,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        385
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:29cea5dd,read_data2:19d699a5,reg_write_data:29cea5dd,dm_read_data:z
+ALU_op1:29cea5dd,ALU_op2:00000000,ALU_result:29cea5dd,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        386
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:43a53f82,read_data2:29cea5dd,reg_write_data:43a53f82,dm_read_data:z
+ALU_op1:43a53f82,ALU_op2:00000000,ALU_result:43a53f82,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        387
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000a8,read_data2:43a53f82,reg_write_data:43a53f82,dm_read_data:0
+ALU_op1:804000a8,ALU_op2:00000000,ALU_result:804000a8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        388
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000a8,read_data2:29cea5dd,reg_write_data:43a53f82,dm_read_data:0
+ALU_op1:804000a8,ALU_op2:00000000,ALU_result:804000a8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        389
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:43a53f82,read_data2:43a53f82,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:43a53f82,ALU_op2:43a53f82,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        390
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        391
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000a8,read_data2:00000004,reg_write_data:804000ac,dm_read_data:z
+ALU_op1:804000a8,ALU_op2:00000004,ALU_result:804000ac,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        392
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000ac,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000ac,ALU_op2:80400100,ALU_result:ffffffac,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        393
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:29cea5dd,read_data2:43a53f82,reg_write_data:6d73e55f,dm_read_data:z
+ALU_op1:29cea5dd,ALU_op2:43a53f82,ALU_result:6d73e55f,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        394
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:43a53f82,read_data2:29cea5dd,reg_write_data:43a53f82,dm_read_data:z
+ALU_op1:43a53f82,ALU_op2:00000000,ALU_result:43a53f82,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        395
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:6d73e55f,read_data2:43a53f82,reg_write_data:6d73e55f,dm_read_data:z
+ALU_op1:6d73e55f,ALU_op2:00000000,ALU_result:6d73e55f,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        396
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000ac,read_data2:6d73e55f,reg_write_data:6d73e55f,dm_read_data:1
+ALU_op1:804000ac,ALU_op2:00000000,ALU_result:804000ac,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        397
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000ac,read_data2:43a53f82,reg_write_data:6d73e55f,dm_read_data:1
+ALU_op1:804000ac,ALU_op2:00000000,ALU_result:804000ac,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        398
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:6d73e55f,read_data2:6d73e55f,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:6d73e55f,ALU_op2:6d73e55f,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        399
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        400
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000ac,read_data2:00000004,reg_write_data:804000b0,dm_read_data:z
+ALU_op1:804000ac,ALU_op2:00000004,ALU_result:804000b0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        401
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000b0,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000b0,ALU_op2:80400100,ALU_result:ffffffb0,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        402
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:43a53f82,read_data2:6d73e55f,reg_write_data:b11924e1,dm_read_data:z
+ALU_op1:43a53f82,ALU_op2:6d73e55f,ALU_result:b11924e1,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        403
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:6d73e55f,read_data2:43a53f82,reg_write_data:6d73e55f,dm_read_data:z
+ALU_op1:6d73e55f,ALU_op2:00000000,ALU_result:6d73e55f,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        404
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:b11924e1,read_data2:6d73e55f,reg_write_data:b11924e1,dm_read_data:z
+ALU_op1:b11924e1,ALU_op2:00000000,ALU_result:b11924e1,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        405
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000b0,read_data2:b11924e1,reg_write_data:b11924e1,dm_read_data:1
+ALU_op1:804000b0,ALU_op2:00000000,ALU_result:804000b0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        406
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000b0,read_data2:6d73e55f,reg_write_data:b11924e1,dm_read_data:1
+ALU_op1:804000b0,ALU_op2:00000000,ALU_result:804000b0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        407
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:b11924e1,read_data2:b11924e1,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:b11924e1,ALU_op2:b11924e1,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        408
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        409
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000b0,read_data2:00000004,reg_write_data:804000b4,dm_read_data:z
+ALU_op1:804000b0,ALU_op2:00000004,ALU_result:804000b4,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        410
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000b4,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000b4,ALU_op2:80400100,ALU_result:ffffffb4,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        411
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:6d73e55f,read_data2:b11924e1,reg_write_data:1e8d0a40,dm_read_data:z
+ALU_op1:6d73e55f,ALU_op2:b11924e1,ALU_result:1e8d0a40,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        412
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:b11924e1,read_data2:6d73e55f,reg_write_data:b11924e1,dm_read_data:z
+ALU_op1:b11924e1,ALU_op2:00000000,ALU_result:b11924e1,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        413
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:1e8d0a40,read_data2:b11924e1,reg_write_data:1e8d0a40,dm_read_data:z
+ALU_op1:1e8d0a40,ALU_op2:00000000,ALU_result:1e8d0a40,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        414
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000b4,read_data2:1e8d0a40,reg_write_data:1e8d0a40,dm_read_data:0
+ALU_op1:804000b4,ALU_op2:00000000,ALU_result:804000b4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        415
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000b4,read_data2:b11924e1,reg_write_data:1e8d0a40,dm_read_data:0
+ALU_op1:804000b4,ALU_op2:00000000,ALU_result:804000b4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        416
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:1e8d0a40,read_data2:1e8d0a40,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:1e8d0a40,ALU_op2:1e8d0a40,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        417
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        418
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000b4,read_data2:00000004,reg_write_data:804000b8,dm_read_data:z
+ALU_op1:804000b4,ALU_op2:00000004,ALU_result:804000b8,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        419
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000b8,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000b8,ALU_op2:80400100,ALU_result:ffffffb8,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        420
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:b11924e1,read_data2:1e8d0a40,reg_write_data:cfa62f21,dm_read_data:z
+ALU_op1:b11924e1,ALU_op2:1e8d0a40,ALU_result:cfa62f21,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        421
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:1e8d0a40,read_data2:b11924e1,reg_write_data:1e8d0a40,dm_read_data:z
+ALU_op1:1e8d0a40,ALU_op2:00000000,ALU_result:1e8d0a40,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        422
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:cfa62f21,read_data2:1e8d0a40,reg_write_data:cfa62f21,dm_read_data:z
+ALU_op1:cfa62f21,ALU_op2:00000000,ALU_result:cfa62f21,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        423
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000b8,read_data2:cfa62f21,reg_write_data:cfa62f21,dm_read_data:1
+ALU_op1:804000b8,ALU_op2:00000000,ALU_result:804000b8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        424
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000b8,read_data2:1e8d0a40,reg_write_data:cfa62f21,dm_read_data:1
+ALU_op1:804000b8,ALU_op2:00000000,ALU_result:804000b8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        425
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:cfa62f21,read_data2:cfa62f21,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:cfa62f21,ALU_op2:cfa62f21,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        426
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        427
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000b8,read_data2:00000004,reg_write_data:804000bc,dm_read_data:z
+ALU_op1:804000b8,ALU_op2:00000004,ALU_result:804000bc,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        428
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000bc,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000bc,ALU_op2:80400100,ALU_result:ffffffbc,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        429
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:1e8d0a40,read_data2:cfa62f21,reg_write_data:ee333961,dm_read_data:z
+ALU_op1:1e8d0a40,ALU_op2:cfa62f21,ALU_result:ee333961,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        430
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:cfa62f21,read_data2:1e8d0a40,reg_write_data:cfa62f21,dm_read_data:z
+ALU_op1:cfa62f21,ALU_op2:00000000,ALU_result:cfa62f21,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        431
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:ee333961,read_data2:cfa62f21,reg_write_data:ee333961,dm_read_data:z
+ALU_op1:ee333961,ALU_op2:00000000,ALU_result:ee333961,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        432
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000bc,read_data2:ee333961,reg_write_data:ee333961,dm_read_data:1
+ALU_op1:804000bc,ALU_op2:00000000,ALU_result:804000bc,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        433
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000bc,read_data2:cfa62f21,reg_write_data:ee333961,dm_read_data:1
+ALU_op1:804000bc,ALU_op2:00000000,ALU_result:804000bc,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        434
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:ee333961,read_data2:ee333961,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:ee333961,ALU_op2:ee333961,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        435
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        436
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000bc,read_data2:00000004,reg_write_data:804000c0,dm_read_data:z
+ALU_op1:804000bc,ALU_op2:00000004,ALU_result:804000c0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        437
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000c0,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000c0,ALU_op2:80400100,ALU_result:ffffffc0,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        438
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:cfa62f21,read_data2:ee333961,reg_write_data:bdd96882,dm_read_data:z
+ALU_op1:cfa62f21,ALU_op2:ee333961,ALU_result:bdd96882,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        439
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:ee333961,read_data2:cfa62f21,reg_write_data:ee333961,dm_read_data:z
+ALU_op1:ee333961,ALU_op2:00000000,ALU_result:ee333961,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        440
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:bdd96882,read_data2:ee333961,reg_write_data:bdd96882,dm_read_data:z
+ALU_op1:bdd96882,ALU_op2:00000000,ALU_result:bdd96882,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        441
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000c0,read_data2:bdd96882,reg_write_data:bdd96882,dm_read_data:0
+ALU_op1:804000c0,ALU_op2:00000000,ALU_result:804000c0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        442
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000c0,read_data2:ee333961,reg_write_data:bdd96882,dm_read_data:0
+ALU_op1:804000c0,ALU_op2:00000000,ALU_result:804000c0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        443
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:bdd96882,read_data2:bdd96882,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:bdd96882,ALU_op2:bdd96882,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        444
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        445
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000c0,read_data2:00000004,reg_write_data:804000c4,dm_read_data:z
+ALU_op1:804000c0,ALU_op2:00000004,ALU_result:804000c4,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        446
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000c4,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000c4,ALU_op2:80400100,ALU_result:ffffffc4,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        447
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:ee333961,read_data2:bdd96882,reg_write_data:ac0ca1e3,dm_read_data:z
+ALU_op1:ee333961,ALU_op2:bdd96882,ALU_result:ac0ca1e3,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        448
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:bdd96882,read_data2:ee333961,reg_write_data:bdd96882,dm_read_data:z
+ALU_op1:bdd96882,ALU_op2:00000000,ALU_result:bdd96882,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        449
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:ac0ca1e3,read_data2:bdd96882,reg_write_data:ac0ca1e3,dm_read_data:z
+ALU_op1:ac0ca1e3,ALU_op2:00000000,ALU_result:ac0ca1e3,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        450
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000c4,read_data2:ac0ca1e3,reg_write_data:ac0ca1e3,dm_read_data:1
+ALU_op1:804000c4,ALU_op2:00000000,ALU_result:804000c4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        451
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000c4,read_data2:bdd96882,reg_write_data:ac0ca1e3,dm_read_data:1
+ALU_op1:804000c4,ALU_op2:00000000,ALU_result:804000c4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        452
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:ac0ca1e3,read_data2:ac0ca1e3,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:ac0ca1e3,ALU_op2:ac0ca1e3,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        453
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        454
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000c4,read_data2:00000004,reg_write_data:804000c8,dm_read_data:z
+ALU_op1:804000c4,ALU_op2:00000004,ALU_result:804000c8,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        455
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000c8,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000c8,ALU_op2:80400100,ALU_result:ffffffc8,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        456
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:bdd96882,read_data2:ac0ca1e3,reg_write_data:69e60a65,dm_read_data:z
+ALU_op1:bdd96882,ALU_op2:ac0ca1e3,ALU_result:69e60a65,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        457
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:ac0ca1e3,read_data2:bdd96882,reg_write_data:ac0ca1e3,dm_read_data:z
+ALU_op1:ac0ca1e3,ALU_op2:00000000,ALU_result:ac0ca1e3,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        458
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:69e60a65,read_data2:ac0ca1e3,reg_write_data:69e60a65,dm_read_data:z
+ALU_op1:69e60a65,ALU_op2:00000000,ALU_result:69e60a65,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        459
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000c8,read_data2:69e60a65,reg_write_data:69e60a65,dm_read_data:1
+ALU_op1:804000c8,ALU_op2:00000000,ALU_result:804000c8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        460
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000c8,read_data2:ac0ca1e3,reg_write_data:69e60a65,dm_read_data:1
+ALU_op1:804000c8,ALU_op2:00000000,ALU_result:804000c8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        461
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:69e60a65,read_data2:69e60a65,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:69e60a65,ALU_op2:69e60a65,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        462
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        463
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000c8,read_data2:00000004,reg_write_data:804000cc,dm_read_data:z
+ALU_op1:804000c8,ALU_op2:00000004,ALU_result:804000cc,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        464
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000cc,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000cc,ALU_op2:80400100,ALU_result:ffffffcc,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        465
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:ac0ca1e3,read_data2:69e60a65,reg_write_data:15f2ac48,dm_read_data:z
+ALU_op1:ac0ca1e3,ALU_op2:69e60a65,ALU_result:15f2ac48,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        466
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:69e60a65,read_data2:ac0ca1e3,reg_write_data:69e60a65,dm_read_data:z
+ALU_op1:69e60a65,ALU_op2:00000000,ALU_result:69e60a65,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        467
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:15f2ac48,read_data2:69e60a65,reg_write_data:15f2ac48,dm_read_data:z
+ALU_op1:15f2ac48,ALU_op2:00000000,ALU_result:15f2ac48,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        468
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000cc,read_data2:15f2ac48,reg_write_data:15f2ac48,dm_read_data:0
+ALU_op1:804000cc,ALU_op2:00000000,ALU_result:804000cc,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        469
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000cc,read_data2:69e60a65,reg_write_data:15f2ac48,dm_read_data:0
+ALU_op1:804000cc,ALU_op2:00000000,ALU_result:804000cc,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        470
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:15f2ac48,read_data2:15f2ac48,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:15f2ac48,ALU_op2:15f2ac48,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        471
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        472
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000cc,read_data2:00000004,reg_write_data:804000d0,dm_read_data:z
+ALU_op1:804000cc,ALU_op2:00000004,ALU_result:804000d0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        473
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000d0,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000d0,ALU_op2:80400100,ALU_result:ffffffd0,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        474
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:69e60a65,read_data2:15f2ac48,reg_write_data:7fd8b6ad,dm_read_data:z
+ALU_op1:69e60a65,ALU_op2:15f2ac48,ALU_result:7fd8b6ad,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        475
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:15f2ac48,read_data2:69e60a65,reg_write_data:15f2ac48,dm_read_data:z
+ALU_op1:15f2ac48,ALU_op2:00000000,ALU_result:15f2ac48,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        476
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:7fd8b6ad,read_data2:15f2ac48,reg_write_data:7fd8b6ad,dm_read_data:z
+ALU_op1:7fd8b6ad,ALU_op2:00000000,ALU_result:7fd8b6ad,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        477
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000d0,read_data2:7fd8b6ad,reg_write_data:7fd8b6ad,dm_read_data:1
+ALU_op1:804000d0,ALU_op2:00000000,ALU_result:804000d0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        478
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000d0,read_data2:15f2ac48,reg_write_data:7fd8b6ad,dm_read_data:1
+ALU_op1:804000d0,ALU_op2:00000000,ALU_result:804000d0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        479
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:7fd8b6ad,read_data2:7fd8b6ad,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:7fd8b6ad,ALU_op2:7fd8b6ad,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        480
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        481
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000d0,read_data2:00000004,reg_write_data:804000d4,dm_read_data:z
+ALU_op1:804000d0,ALU_op2:00000004,ALU_result:804000d4,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        482
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000d4,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000d4,ALU_op2:80400100,ALU_result:ffffffd4,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        483
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:15f2ac48,read_data2:7fd8b6ad,reg_write_data:95cb62f5,dm_read_data:z
+ALU_op1:15f2ac48,ALU_op2:7fd8b6ad,ALU_result:95cb62f5,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        484
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:7fd8b6ad,read_data2:15f2ac48,reg_write_data:7fd8b6ad,dm_read_data:z
+ALU_op1:7fd8b6ad,ALU_op2:00000000,ALU_result:7fd8b6ad,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        485
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:95cb62f5,read_data2:7fd8b6ad,reg_write_data:95cb62f5,dm_read_data:z
+ALU_op1:95cb62f5,ALU_op2:00000000,ALU_result:95cb62f5,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        486
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000d4,read_data2:95cb62f5,reg_write_data:95cb62f5,dm_read_data:1
+ALU_op1:804000d4,ALU_op2:00000000,ALU_result:804000d4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        487
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000d4,read_data2:7fd8b6ad,reg_write_data:95cb62f5,dm_read_data:1
+ALU_op1:804000d4,ALU_op2:00000000,ALU_result:804000d4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        488
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:95cb62f5,read_data2:95cb62f5,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:95cb62f5,ALU_op2:95cb62f5,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        489
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        490
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000d4,read_data2:00000004,reg_write_data:804000d8,dm_read_data:z
+ALU_op1:804000d4,ALU_op2:00000004,ALU_result:804000d8,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        491
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000d8,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000d8,ALU_op2:80400100,ALU_result:ffffffd8,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        492
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:7fd8b6ad,read_data2:95cb62f5,reg_write_data:15a419a2,dm_read_data:z
+ALU_op1:7fd8b6ad,ALU_op2:95cb62f5,ALU_result:15a419a2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        493
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:95cb62f5,read_data2:7fd8b6ad,reg_write_data:95cb62f5,dm_read_data:z
+ALU_op1:95cb62f5,ALU_op2:00000000,ALU_result:95cb62f5,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        494
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:15a419a2,read_data2:95cb62f5,reg_write_data:15a419a2,dm_read_data:z
+ALU_op1:15a419a2,ALU_op2:00000000,ALU_result:15a419a2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        495
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000d8,read_data2:15a419a2,reg_write_data:15a419a2,dm_read_data:0
+ALU_op1:804000d8,ALU_op2:00000000,ALU_result:804000d8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        496
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000d8,read_data2:95cb62f5,reg_write_data:15a419a2,dm_read_data:0
+ALU_op1:804000d8,ALU_op2:00000000,ALU_result:804000d8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        497
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:15a419a2,read_data2:15a419a2,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:15a419a2,ALU_op2:15a419a2,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        498
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        499
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000d8,read_data2:00000004,reg_write_data:804000dc,dm_read_data:z
+ALU_op1:804000d8,ALU_op2:00000004,ALU_result:804000dc,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        500
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000dc,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000dc,ALU_op2:80400100,ALU_result:ffffffdc,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        501
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:95cb62f5,read_data2:15a419a2,reg_write_data:ab6f7c97,dm_read_data:z
+ALU_op1:95cb62f5,ALU_op2:15a419a2,ALU_result:ab6f7c97,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        502
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:15a419a2,read_data2:95cb62f5,reg_write_data:15a419a2,dm_read_data:z
+ALU_op1:15a419a2,ALU_op2:00000000,ALU_result:15a419a2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        503
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:ab6f7c97,read_data2:15a419a2,reg_write_data:ab6f7c97,dm_read_data:z
+ALU_op1:ab6f7c97,ALU_op2:00000000,ALU_result:ab6f7c97,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        504
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000dc,read_data2:ab6f7c97,reg_write_data:ab6f7c97,dm_read_data:1
+ALU_op1:804000dc,ALU_op2:00000000,ALU_result:804000dc,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        505
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000dc,read_data2:15a419a2,reg_write_data:ab6f7c97,dm_read_data:1
+ALU_op1:804000dc,ALU_op2:00000000,ALU_result:804000dc,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        506
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:ab6f7c97,read_data2:ab6f7c97,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:ab6f7c97,ALU_op2:ab6f7c97,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        507
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        508
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000dc,read_data2:00000004,reg_write_data:804000e0,dm_read_data:z
+ALU_op1:804000dc,ALU_op2:00000004,ALU_result:804000e0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        509
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000e0,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000e0,ALU_op2:80400100,ALU_result:ffffffe0,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        510
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:15a419a2,read_data2:ab6f7c97,reg_write_data:c1139639,dm_read_data:z
+ALU_op1:15a419a2,ALU_op2:ab6f7c97,ALU_result:c1139639,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        511
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:ab6f7c97,read_data2:15a419a2,reg_write_data:ab6f7c97,dm_read_data:z
+ALU_op1:ab6f7c97,ALU_op2:00000000,ALU_result:ab6f7c97,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        512
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:c1139639,read_data2:ab6f7c97,reg_write_data:c1139639,dm_read_data:z
+ALU_op1:c1139639,ALU_op2:00000000,ALU_result:c1139639,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        513
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000e0,read_data2:c1139639,reg_write_data:c1139639,dm_read_data:1
+ALU_op1:804000e0,ALU_op2:00000000,ALU_result:804000e0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        514
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000e0,read_data2:ab6f7c97,reg_write_data:c1139639,dm_read_data:1
+ALU_op1:804000e0,ALU_op2:00000000,ALU_result:804000e0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        515
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:c1139639,read_data2:c1139639,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:c1139639,ALU_op2:c1139639,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        516
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        517
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000e0,read_data2:00000004,reg_write_data:804000e4,dm_read_data:z
+ALU_op1:804000e0,ALU_op2:00000004,ALU_result:804000e4,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        518
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000e4,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000e4,ALU_op2:80400100,ALU_result:ffffffe4,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        519
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:ab6f7c97,read_data2:c1139639,reg_write_data:6c8312d0,dm_read_data:z
+ALU_op1:ab6f7c97,ALU_op2:c1139639,ALU_result:6c8312d0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        520
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:c1139639,read_data2:ab6f7c97,reg_write_data:c1139639,dm_read_data:z
+ALU_op1:c1139639,ALU_op2:00000000,ALU_result:c1139639,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        521
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:6c8312d0,read_data2:c1139639,reg_write_data:6c8312d0,dm_read_data:z
+ALU_op1:6c8312d0,ALU_op2:00000000,ALU_result:6c8312d0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        522
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000e4,read_data2:6c8312d0,reg_write_data:6c8312d0,dm_read_data:0
+ALU_op1:804000e4,ALU_op2:00000000,ALU_result:804000e4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        523
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000e4,read_data2:c1139639,reg_write_data:6c8312d0,dm_read_data:0
+ALU_op1:804000e4,ALU_op2:00000000,ALU_result:804000e4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        524
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:6c8312d0,read_data2:6c8312d0,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:6c8312d0,ALU_op2:6c8312d0,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        525
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        526
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000e4,read_data2:00000004,reg_write_data:804000e8,dm_read_data:z
+ALU_op1:804000e4,ALU_op2:00000004,ALU_result:804000e8,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        527
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000e8,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000e8,ALU_op2:80400100,ALU_result:ffffffe8,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        528
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:c1139639,read_data2:6c8312d0,reg_write_data:2d96a909,dm_read_data:z
+ALU_op1:c1139639,ALU_op2:6c8312d0,ALU_result:2d96a909,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        529
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:6c8312d0,read_data2:c1139639,reg_write_data:6c8312d0,dm_read_data:z
+ALU_op1:6c8312d0,ALU_op2:00000000,ALU_result:6c8312d0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        530
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:2d96a909,read_data2:6c8312d0,reg_write_data:2d96a909,dm_read_data:z
+ALU_op1:2d96a909,ALU_op2:00000000,ALU_result:2d96a909,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        531
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000e8,read_data2:2d96a909,reg_write_data:2d96a909,dm_read_data:1
+ALU_op1:804000e8,ALU_op2:00000000,ALU_result:804000e8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        532
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000e8,read_data2:6c8312d0,reg_write_data:2d96a909,dm_read_data:1
+ALU_op1:804000e8,ALU_op2:00000000,ALU_result:804000e8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        533
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:2d96a909,read_data2:2d96a909,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:2d96a909,ALU_op2:2d96a909,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        534
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        535
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000e8,read_data2:00000004,reg_write_data:804000ec,dm_read_data:z
+ALU_op1:804000e8,ALU_op2:00000004,ALU_result:804000ec,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        536
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000ec,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000ec,ALU_op2:80400100,ALU_result:ffffffec,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        537
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:6c8312d0,read_data2:2d96a909,reg_write_data:9a19bbd9,dm_read_data:z
+ALU_op1:6c8312d0,ALU_op2:2d96a909,ALU_result:9a19bbd9,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        538
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:2d96a909,read_data2:6c8312d0,reg_write_data:2d96a909,dm_read_data:z
+ALU_op1:2d96a909,ALU_op2:00000000,ALU_result:2d96a909,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        539
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:9a19bbd9,read_data2:2d96a909,reg_write_data:9a19bbd9,dm_read_data:z
+ALU_op1:9a19bbd9,ALU_op2:00000000,ALU_result:9a19bbd9,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        540
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000ec,read_data2:9a19bbd9,reg_write_data:9a19bbd9,dm_read_data:1
+ALU_op1:804000ec,ALU_op2:00000000,ALU_result:804000ec,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        541
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000ec,read_data2:2d96a909,reg_write_data:9a19bbd9,dm_read_data:1
+ALU_op1:804000ec,ALU_op2:00000000,ALU_result:804000ec,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        542
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:9a19bbd9,read_data2:9a19bbd9,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:9a19bbd9,ALU_op2:9a19bbd9,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        543
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        544
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000ec,read_data2:00000004,reg_write_data:804000f0,dm_read_data:z
+ALU_op1:804000ec,ALU_op2:00000004,ALU_result:804000f0,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        545
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000f0,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000f0,ALU_op2:80400100,ALU_result:fffffff0,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        546
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:2d96a909,read_data2:9a19bbd9,reg_write_data:c7b064e2,dm_read_data:z
+ALU_op1:2d96a909,ALU_op2:9a19bbd9,ALU_result:c7b064e2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        547
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:9a19bbd9,read_data2:2d96a909,reg_write_data:9a19bbd9,dm_read_data:z
+ALU_op1:9a19bbd9,ALU_op2:00000000,ALU_result:9a19bbd9,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        548
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:c7b064e2,read_data2:9a19bbd9,reg_write_data:c7b064e2,dm_read_data:z
+ALU_op1:c7b064e2,ALU_op2:00000000,ALU_result:c7b064e2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        549
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000f0,read_data2:c7b064e2,reg_write_data:c7b064e2,dm_read_data:0
+ALU_op1:804000f0,ALU_op2:00000000,ALU_result:804000f0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        550
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000f0,read_data2:9a19bbd9,reg_write_data:c7b064e2,dm_read_data:0
+ALU_op1:804000f0,ALU_op2:00000000,ALU_result:804000f0,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        551
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:c7b064e2,read_data2:c7b064e2,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:c7b064e2,ALU_op2:c7b064e2,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        552
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        553
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000f0,read_data2:00000004,reg_write_data:804000f4,dm_read_data:z
+ALU_op1:804000f0,ALU_op2:00000004,ALU_result:804000f4,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        554
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000f4,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000f4,ALU_op2:80400100,ALU_result:fffffff4,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        555
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:9a19bbd9,read_data2:c7b064e2,reg_write_data:61ca20bb,dm_read_data:z
+ALU_op1:9a19bbd9,ALU_op2:c7b064e2,ALU_result:61ca20bb,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        556
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:c7b064e2,read_data2:9a19bbd9,reg_write_data:c7b064e2,dm_read_data:z
+ALU_op1:c7b064e2,ALU_op2:00000000,ALU_result:c7b064e2,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        557
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:61ca20bb,read_data2:c7b064e2,reg_write_data:61ca20bb,dm_read_data:z
+ALU_op1:61ca20bb,ALU_op2:00000000,ALU_result:61ca20bb,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        558
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000f4,read_data2:61ca20bb,reg_write_data:61ca20bb,dm_read_data:1
+ALU_op1:804000f4,ALU_op2:00000000,ALU_result:804000f4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        559
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000f4,read_data2:c7b064e2,reg_write_data:61ca20bb,dm_read_data:1
+ALU_op1:804000f4,ALU_op2:00000000,ALU_result:804000f4,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        560
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:61ca20bb,read_data2:61ca20bb,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:61ca20bb,ALU_op2:61ca20bb,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        561
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        562
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000f4,read_data2:00000004,reg_write_data:804000f8,dm_read_data:z
+ALU_op1:804000f4,ALU_op2:00000004,ALU_result:804000f8,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        563
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000f8,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000f8,ALU_op2:80400100,ALU_result:fffffff8,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        564
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:c7b064e2,read_data2:61ca20bb,reg_write_data:297a859d,dm_read_data:z
+ALU_op1:c7b064e2,ALU_op2:61ca20bb,ALU_result:297a859d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        565
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:61ca20bb,read_data2:c7b064e2,reg_write_data:61ca20bb,dm_read_data:z
+ALU_op1:61ca20bb,ALU_op2:00000000,ALU_result:61ca20bb,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        566
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:297a859d,read_data2:61ca20bb,reg_write_data:297a859d,dm_read_data:z
+ALU_op1:297a859d,ALU_op2:00000000,ALU_result:297a859d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        567
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000f8,read_data2:297a859d,reg_write_data:297a859d,dm_read_data:1
+ALU_op1:804000f8,ALU_op2:00000000,ALU_result:804000f8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        568
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000f8,read_data2:61ca20bb,reg_write_data:297a859d,dm_read_data:1
+ALU_op1:804000f8,ALU_op2:00000000,ALU_result:804000f8,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        569
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:297a859d,read_data2:297a859d,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:297a859d,ALU_op2:297a859d,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        570
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        571
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000f8,read_data2:00000004,reg_write_data:804000fc,dm_read_data:z
+ALU_op1:804000f8,ALU_op2:00000004,ALU_result:804000fc,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        572
+PC:00000018,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:804000fc,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:804000fc,ALU_op2:80400100,ALU_result:fffffffc,zero:0,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        573
+PC:0000001c,instruction:01095021
+instruction[31:26]:000000,rs:01000,rt:01001,rd:01010,func:100001,imm:0101000000100001
+read_data1:61ca20bb,read_data2:297a859d,reg_write_data:8b44a658,dm_read_data:z
+ALU_op1:61ca20bb,ALU_op2:297a859d,ALU_result:8b44a658,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000140a0
+
+i:        574
+PC:00000020,instruction:35280000
+instruction[31:26]:001101,rs:01001,rt:01000,rd:01000,func:000000,imm:0000000000000000
+read_data1:297a859d,read_data2:61ca20bb,reg_write_data:297a859d,dm_read_data:z
+ALU_op1:297a859d,ALU_op2:00000000,ALU_result:297a859d,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000020
+
+i:        575
+PC:00000024,instruction:35490000
+instruction[31:26]:001101,rs:01010,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:8b44a658,read_data2:297a859d,reg_write_data:8b44a658,dm_read_data:z
+ALU_op1:8b44a658,ALU_op2:00000000,ALU_result:8b44a658,zero:0,PCsrc:0,Memtoreg:1,bne_addr:00000024
+
+i:        576
+PC:00000028,instruction:ac890000
+instruction[31:26]:101011,rs:00100,rt:01001,rd:01001,func:000000,imm:0000000000000000
+read_data1:804000fc,read_data2:8b44a658,reg_write_data:8b44a658,dm_read_data:0
+ALU_op1:804000fc,ALU_op2:00000000,ALU_result:804000fc,zero:0,PCsrc:0,Memtoreg:0,bne_addr:00000028
+
+i:        577
+PC:0000002c,instruction:8c8b0000
+instruction[31:26]:100011,rs:00100,rt:01011,rd:01011,func:000000,imm:0000000000000000
+read_data1:804000fc,read_data2:297a859d,reg_write_data:8b44a658,dm_read_data:0
+ALU_op1:804000fc,ALU_op2:00000000,ALU_result:804000fc,zero:0,PCsrc:0,Memtoreg:0,bne_addr:0000002c
+
+i:        578
+PC:00000030,instruction:152b0004
+instruction[31:26]:000101,rs:01001,rt:01011,rd:01011,func:000100,imm:0000000000000100
+read_data1:8b44a658,read_data2:8b44a658,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:8b44a658,ALU_op2:8b44a658,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000040
+
+i:        579
+PC:00000034,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000034
+
+i:        580
+PC:00000038,instruction:00912021
+instruction[31:26]:000000,rs:00100,rt:10001,rd:00100,func:100001,imm:0010000000100001
+read_data1:804000fc,read_data2:00000004,reg_write_data:80400100,dm_read_data:z
+ALU_op1:804000fc,ALU_op2:00000004,ALU_result:80400100,zero:0,PCsrc:0,Memtoreg:1,bne_addr:000080bc
+
+i:        581
+PC:0000003c,instruction:148dfff7
+instruction[31:26]:000101,rs:00100,rt:01101,rd:01101,func:110111,imm:1111111111110111
+read_data1:80400100,read_data2:80400100,reg_write_data:zzzzzzzz,dm_read_data:z
+ALU_op1:80400100,ALU_op2:80400100,ALU_result:00000000,zero:1,PCsrc:1,Memtoreg:0,bne_addr:00000018
+
+i:        582
+PC:00000040,instruction:34000000
+instruction[31:26]:001101,rs:00000,rt:00000,rd:00000,func:000000,imm:0000000000000000
+read_data1:00000000,read_data2:00000000,reg_write_data:00000000,dm_read_data:z
+ALU_op1:00000000,ALU_op2:00000000,ALU_result:00000000,zero:1,PCsrc:0,Memtoreg:1,bne_addr:00000040
+
